@@ -1,0 +1,2 @@
+gpu Neighbored  gpu_sum: 1 <<<grid 1 block 1024>>>
+gpu Neighbored2 gpu_sum: 1 <<<grid 1 block 1024>>>

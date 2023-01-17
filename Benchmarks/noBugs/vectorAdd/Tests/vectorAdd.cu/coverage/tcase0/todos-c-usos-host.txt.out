@@ -1,0 +1,18 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 6-0, size>, coberto
+2) <1-0, 7-0, size>, coberto
+3) <1-0, 8-0, size>, coberto
+4) <2-0, 4-0, i>, coberto
+5) <2-0, 5-0, i>, coberto
+6) <9-0, 17-0, d_a>, coberto
+7) <10-0, 18-0, d_b>, coberto
+8) <12-0, 15-0, c>, coberto
+9) <13-0, 15-0, i>, coberto
+10) <13-0, 16-0, i>, coberto
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 10 / 10
+Coverage for the todos-c-usos-host criterion: 100.00%

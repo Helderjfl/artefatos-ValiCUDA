@@ -1,0 +1,17 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 2-0, coberto
+2) 3-0, coberto
+3) 8-0, coberto
+4) 9-0, coberto
+5) 10-0, coberto
+6) 18-0, coberto
+7) 19-0, coberto
+8) 1-1, cobertura 100.00%
+9) 35-1, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 8199 / 8199
+Coverage for the todos-nos-sinc criterion: 100.00%

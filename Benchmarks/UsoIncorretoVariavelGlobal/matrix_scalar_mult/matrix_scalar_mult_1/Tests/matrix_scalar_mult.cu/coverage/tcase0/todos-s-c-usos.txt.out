@@ -1,0 +1,9 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, (9-0, 1-1), 3-1, scalar, scalar>, cobertura 0.02%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 1 / 4096
+Coverage for the todos-s-c-usos criterion: 0.02%

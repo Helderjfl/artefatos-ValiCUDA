@@ -1,0 +1,18 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, (5-0, 6-0), N>, coberto
+2) <1-0, (5-0, 8-0), N>, coberto
+4) <1-0, (11-0, 16-0), N>, coberto
+7) <4-0, (5-0, 6-0), i>, coberto
+8) <4-0, (5-0, 8-0), i>, coberto
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+3) <1-0, (11-0, 12-0), N>
+5) <1-0, (13-0, 14-0), numBlock>
+6) <1-0, (13-0, 16-0), numBlock>
+9) <12-0, (13-0, 14-0), i>
+10) <12-0, (13-0, 16-0), i>
+
+Threads: 5 / 10
+Coverage for the todos-p-usos-host criterion: 50.00%

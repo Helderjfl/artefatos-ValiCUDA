@@ -1,0 +1,21 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 3-1, i>, cobertura 100.00%
+2) <1-1, 4-1, tid>, cobertura 100.00%
+3) <1-1, 8-1, blockDim.x>, cobertura 100.00%
+4) <1-1, 11-1, tid>, cobertura 50.00%
+5) <1-1, 16-1, blockIdx.x>, cobertura 0.10%
+8) <4-1, 11-1, sdata>, cobertura 50.00%
+10) <8-1, 11-1, s>, cobertura 50.00%
+11) <8-1, 14-1, s>, cobertura 100.00%
+12) <11-1, 11-1, sdata>, cobertura 25.00%
+13) <11-1, 16-1, sdata>, cobertura 0.10%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+6) <1-1, 11-1, sdata>
+7) <1-1, 16-1, sdata>
+9) <4-1, 16-1, sdata>
+
+Threads: 47120 / 106496
+Coverage for the todos-c-usos-grid criterion: 44.25%

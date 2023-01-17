@@ -1,0 +1,39 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 3-1, d_b>, cobertura 100.00%
+2) <1-1, 3-1, idx>, cobertura 100.00%
+3) <1-1, 9-1, d_a>, cobertura 100.00%
+4) <1-1, 9-1, tempValue>, cobertura 100.00%
+5) <1-1, 9-1, idx>, cobertura 100.00%
+6) <1-1, 9-1, N>, cobertura 100.00%
+7) <1-1, 13-1, idx>, cobertura 100.00%
+9) <3-1, 9-1, array>, cobertura 100.00%
+10) <7-1, 9-1, k>, cobertura 100.00%
+11) <7-1, 10-1, k>, cobertura 100.00%
+12) <9-1, 9-1, tempValue>, cobertura 100.00%
+13) <9-1, 13-1, tempValue>, cobertura 100.00%
+14) <1-1, (2-1, 3-1), idx>, cobertura 100.00%
+16) <1-1, (2-1, 3-1), N>, cobertura 100.00%
+18) <1-1, (6-1, 7-1), idx>, cobertura 100.00%
+20) <1-1, (6-1, 7-1), N>, cobertura 100.00%
+22) <1-1, (6-1, 7-1), idy>, cobertura 100.00%
+24) <1-1, (8-1, 9-1), N>, cobertura 100.00%
+25) <1-1, (8-1, 11-1), N>, cobertura 100.00%
+26) <1-1, (12-1, 13-1), pos>, cobertura 100.00%
+28) <1-1, (12-1, 13-1), N>, cobertura 100.00%
+30) <7-1, (8-1, 9-1), k>, cobertura 100.00%
+31) <7-1, (8-1, 11-1), k>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+8) <1-1, 13-1, tempValue>
+15) <1-1, (2-1, 4-1), idx>
+17) <1-1, (2-1, 4-1), N>
+19) <1-1, (6-1, 11-1), idx>
+21) <1-1, (6-1, 11-1), N>
+23) <1-1, (6-1, 11-1), idy>
+27) <1-1, (12-1, 14-1), pos>
+29) <1-1, (12-1, 14-1), N>
+
+Threads: 5888 / 7936
+Coverage for the todos-usos-grid criterion: 74.19%

@@ -1,0 +1,15 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 6-0 7-0, coberto
+2) 10-0 11-0, coberto
+3) 10-0 13-0, coberto
+4) 2-1 3-1, cobertura 100.00%
+6) 16-0 1-1, cobertura 100.00%
+7) 4-1 17-0, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+5) 2-1 4-1
+
+Threads: 24579 / 32771
+Coverage for the todas-arestas criterion: 75.00%

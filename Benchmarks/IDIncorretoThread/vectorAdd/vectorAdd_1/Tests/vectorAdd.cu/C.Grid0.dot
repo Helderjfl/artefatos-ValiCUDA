@@ -1,0 +1,40 @@
+digraph cfg{
+node [shape = doublecircle] 2;
+node [shape = circle];
+/* definition of threadIdx.x at 1 */
+/* definition of threadIdx.y at 1 */
+/* definition of threadIdx.z at 1 */
+/* definition of blockIdx.x at 1 */
+/* definition of blockIdx.y at 1 */
+/* definition of blockIdx.z at 1 */
+/* definition of blockDim.x at 1 */
+/* definition of blockDim.y at 1 */
+/* definition of blockDim.z at 1 */
+/* definition of gridDim.x at 1 */
+/* definition of gridDim.y at 1 */
+/* definition of gridDim.z at 1 */
+/* definition of d_c at 1 */
+/* definition of d_a at 1 */
+/* definition of d_b at 1 */
+/* definition of d_c at 1 */
+/* definition of id at 1 */
+/* cusage of blockIdx.x at 1 */
+/* cusage of d_a at 1 */
+/* cusage of d_b at 1 */
+/* cusage of id at 1 */
+/* cusage of id at 1 */
+/* cusage of id at 1 */
+/* susage of d_a at 1 */
+/* susage of d_b at 1 */
+/* susage of d_c at 1 */
+/* m_recv.0 of d_a at 1 */
+/* m_recv.0 of d_b at 1 */
+/* m_recv.0 of d_c at 1 */
+/* m_send.0 of d_a at 2 */
+/* m_send.0 of d_b at 2 */
+/* m_send.0 of d_c at 2 */
+/* global of d_a at 0 */
+/* global of d_b at 0 */
+/* global of d_c at 0 */
+1-> 2;
+}

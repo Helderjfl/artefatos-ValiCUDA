@@ -1,0 +1,12 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, (14-0, 1-1), (2-1, 3-1), N, N>, cobertura 100.00%
+2) <1-0, (14-0, 1-1), (2-1, 4-1), N, N>, cobertura 99.95%
+3) <1-0, (17-0, 1-3), (8-3, 9-3), N, N>, cobertura 50.00%
+4) <1-0, (17-0, 1-3), (8-3, 12-3), N, N>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 7167 / 8192
+Coverage for the todos-s-p-usos criterion: 87.49%

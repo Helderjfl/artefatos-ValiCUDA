@@ -1,0 +1,94 @@
+digraph cfg{
+node [shape = doublecircle] 17;
+node [shape = circle];
+/* definition of threadIdx.x at 1 */
+/* definition of threadIdx.y at 1 */
+/* definition of threadIdx.z at 1 */
+/* definition of blockIdx.x at 1 */
+/* definition of blockIdx.y at 1 */
+/* definition of blockIdx.z at 1 */
+/* definition of blockDim.x at 1 */
+/* definition of blockDim.y at 1 */
+/* definition of blockDim.z at 1 */
+/* definition of gridDim.x at 1 */
+/* definition of gridDim.y at 1 */
+/* definition of gridDim.z at 1 */
+/* definition of sdata at 1 */
+/* definition of sdata at 4 */
+/* definition of s at 8 */
+/* definition of s at 8 */
+/* definition of sdata at 11 */
+/* definition of g_odata at 16 */
+/* definition of g_data at 1 */
+/* definition of g_odata at 1 */
+/* definition of value at 1 */
+/* definition of N at 1 */
+/* definition of tid at 1 */
+/* definition of i at 1 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of blockIdx.x at 1 */
+/* cusage of blockDim.x at 1 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of tid at 1 */
+/* cusage of i at 3 */
+/* cusage of tid at 4 */
+/* cusage of blockDim.x at 8 */
+/* cusage of s at 14 */
+/* cusage of sdata at 11 */
+/* cusage of sdata at 11 */
+/* cusage of tid at 11 */
+/* cusage of tid at 11 */
+/* cusage of s at 11 */
+/* cusage of sdata at 16 */
+/* cusage of blockIdx.x at 16 */
+/* pusage of i at 2 */
+/* pusage of i at 2 */
+/* pusage of N at 2 */
+/* pusage of N at 2 */
+/* pusage of g_data at 3 */
+/* pusage of g_data at 3 */
+/* pusage of value at 3 */
+/* pusage of value at 3 */
+/* pusage of s at 9 */
+/* pusage of s at 9 */
+/* pusage of tid at 10 */
+/* pusage of tid at 10 */
+/* pusage of s at 10 */
+/* pusage of s at 10 */
+/* pusage of tid at 15 */
+/* pusage of tid at 15 */
+/* susage of g_data at 17 */
+/* susage of g_odata at 17 */
+/* m_recv.0 of g_data at 1 */
+/* m_recv.0 of g_odata at 1 */
+/* m_recv.0 of value at 1 */
+/* m_recv.0 of N at 1 */
+/* m_send.0 of g_data at 17 */
+/* m_send.0 of g_odata at 17 */
+/* global of g_data at 0 */
+/* global of g_odata at 0 */
+/* global of value at 0 */
+/* global of N at 0 */
+/* shared of sdata at 0 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+4 -> 5;
+3 -> 5;
+5 -> 6;
+2 -> 6;
+6 -> 7;
+7 -> 8;
+8 -> 9;
+9 -> 10;
+10 -> 11;
+11 -> 12;
+10 -> 12;
+12 -> 13;
+13 -> 14;
+14 -> 9;
+9 -> 15;
+15 -> 16;
+16 -> 17;
+15 -> 17;
+}

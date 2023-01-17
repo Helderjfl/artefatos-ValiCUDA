@@ -1,0 +1,12 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 10-0 1-1, cobertura 100.00%
+2) 19-0 1-2, cobertura 100.00%
+3) 18-1 11-0, cobertura 0.10%
+4) 19-2 20-0, cobertura 0.10%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 2050 / 4096
+Coverage for the todas-arestas-sinc criterion: 50.05%

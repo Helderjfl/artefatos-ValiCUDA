@@ -1,0 +1,55 @@
+digraph CFG{
+	subgraph cluster_0{
+		node [shape = doublecircle] "15";
+		node [shape = circle];
+		label = "main";
+		color=black
+		"0" -> "1"; /*exprStmt*/
+		"1" -> "2"; /*exprStmt*/
+		"2" -> "3"; /*beforeloop*/
+		"3" -> "4"; /*loop*/
+		"4" -> "5"; /*exprStmt*/
+		"5" -> "6"; /*loopend*/
+		"6" -> "4"; /*loopend*/
+		"4" -> "7"; /*exprStmt*/
+		"7" -> "8"; /*exprStmt*/
+		"8" -> "9"; /*exprStmt*/
+		"9" -> "10"; /*if*/
+		"10" -> "11"; /*beforeloop*/
+		"11" -> "12"; /*loop*/
+		"12" -> "13"; /*exprStmt*/
+		"13" -> "14"; /*loopend*/
+		"14" -> "12"; /*loopend*/
+		"12" -> "15"; /*ifend*/
+		"10" -> "15";/*ifend*/
+	}
+	subgraph cluster_1{
+		node [shape = doublecircle] "16g0";
+		node [shape = circle];
+		label = "count";
+		color=black
+		"0g0" -> "1g0"; /*if*/
+		"1g0" -> "2g0"; /*if*/
+		"2g0" -> "3g0"; /*then*/
+		"3g0" -> "4g0"; /*ifend*/
+		"2g0" -> "4g0";/*ifend*/
+		"4g0" -> "5g0"; /*ifend*/
+		"1g0" -> "5g0";/*ifend*/
+		"5g0" -> "6g0"; /*exprStmt*/
+		"6g0" -> "7g0"; /*beforeloop*/
+		"7g0" -> "8g0"; /*loop*/
+		"8g0" -> "9g0"; /*if*/
+		"9g0" -> "10g0"; /*then*/
+		"10g0" -> "11g0"; /*ifend*/
+		"9g0" -> "11g0";/*ifend*/
+		"11g0" -> "12g0"; /*exprStmt*/
+		"12g0" -> "13g0"; /*loopend*/
+		"13g0" -> "8g0"; /*loopend*/
+		"8g0" -> "14g0"; /*if*/
+		"14g0" -> "15g0"; /*then*/
+		"15g0" -> "16g0"; /*ifend*/
+		"14g0" -> "16g0";/*ifend*/
+	}
+	"8" -> "0g0" [ style=dashed ];
+	"16g0" -> "9" [ style=dashed ];
+}

@@ -1,0 +1,33 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 2-0, size>, coberto
+2) <1-0, 3-0, size>, coberto
+3) <1-0, 4-0, size>, coberto
+4) <1-0, 6-0, N>, coberto
+5) <1-0, 7-0, h_a>, coberto
+6) <1-0, 10-0, N>, coberto
+7) <1-0, 11-0, h_b>, coberto
+8) <1-0, 14-0, size>, coberto
+9) <1-0, 22-0, N>, coberto
+10) <1-0, 27-0, h_a>, coberto
+11) <1-0, 27-0, h_b>, coberto
+12) <5-0, 7-0, i>, coberto
+13) <5-0, 8-0, i>, coberto
+14) <9-0, 11-0, i>, coberto
+15) <9-0, 12-0, i>, coberto
+16) <13-0, 25-0, d_a>, coberto
+17) <14-0, 15-0, gridsize>, coberto
+18) <14-0, 15-0, blocksize>, coberto
+19) <14-0, 26-0, d_b>, coberto
+20) <16-0, 22-0, h_c>, coberto
+21) <16-0, 27-0, h_c>, coberto
+22) <17-0, 22-0, i>, coberto
+23) <17-0, 24-0, i>, coberto
+24) <20-0, 22-0, j>, coberto
+25) <20-0, 23-0, j>, coberto
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 25 / 25
+Coverage for the todos-c-usos-host criterion: 100.00%

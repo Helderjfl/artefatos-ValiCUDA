@@ -1,0 +1,12 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, (14-1, 15-1), N>, cobertura 31.64%
+2) <1-1, (14-1, 22-1), N>, cobertura 68.36%
+3) <1-1, (26-1, 27-1), N>, cobertura 31.64%
+4) <1-1, (26-1, 28-1), N>, cobertura 68.36%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 8192 / 16384
+Coverage for the todos-global-p-usos-grid criterion: 50.00%

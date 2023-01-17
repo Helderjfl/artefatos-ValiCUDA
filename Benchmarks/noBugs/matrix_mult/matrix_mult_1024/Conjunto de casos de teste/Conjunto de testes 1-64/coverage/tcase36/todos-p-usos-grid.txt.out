@@ -1,0 +1,36 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, (14-1, 15-1), idx>, cobertura 2.44%
+2) <1-1, (14-1, 22-1), idx>, cobertura 97.56%
+3) <1-1, (14-1, 15-1), N>, cobertura 2.44%
+4) <1-1, (14-1, 22-1), N>, cobertura 97.56%
+5) <1-1, (14-1, 15-1), idy>, cobertura 2.44%
+6) <1-1, (14-1, 22-1), idy>, cobertura 97.56%
+7) <1-1, (26-1, 27-1), idx>, cobertura 2.44%
+8) <1-1, (26-1, 28-1), idx>, cobertura 97.56%
+9) <1-1, (26-1, 27-1), N>, cobertura 2.44%
+10) <1-1, (26-1, 28-1), N>, cobertura 97.56%
+11) <1-1, (26-1, 27-1), idy>, cobertura 2.44%
+12) <1-1, (26-1, 28-1), idy>, cobertura 97.56%
+13) <2-1, (3-1, 4-1), tile_idx>, cobertura 100.00%
+14) <2-1, (3-1, 25-1), tile_idx>, cobertura 100.00%
+15) <4-1, (5-1, 6-1), posa>, cobertura 12.11%
+16) <4-1, (5-1, 7-1), posa>, cobertura 97.46%
+17) <4-1, (9-1, 10-1), posb>, cobertura 14.65%
+18) <4-1, (9-1, 11-1), posb>, cobertura 100.00%
+19) <6-1, (18-1, 19-1), s_a>, cobertura 2.44%
+20) <6-1, (18-1, 20-1), s_a>, cobertura 2.44%
+22) <7-1, (18-1, 20-1), s_a>, cobertura 1.56%
+23) <10-1, (18-1, 19-1), s_b>, cobertura 2.44%
+24) <10-1, (18-1, 20-1), s_b>, cobertura 2.44%
+26) <11-1, (18-1, 20-1), s_b>, cobertura 2.44%
+27) <16-1, (17-1, 18-1), i>, cobertura 2.44%
+28) <16-1, (17-1, 22-1), i>, cobertura 2.44%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+21) <7-1, (18-1, 19-1), s_a>
+25) <11-1, (18-1, 19-1), s_b>
+
+Threads: 10679 / 28672
+Coverage for the todos-p-usos-grid criterion: 37.25%

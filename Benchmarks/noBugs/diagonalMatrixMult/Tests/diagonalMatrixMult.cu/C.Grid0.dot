@@ -1,0 +1,139 @@
+digraph cfg{
+node [shape = doublecircle] 22;
+node [shape = circle];
+/* definition of threadIdx.x at 1 */
+/* definition of threadIdx.y at 1 */
+/* definition of threadIdx.z at 1 */
+/* definition of blockIdx.x at 1 */
+/* definition of blockIdx.y at 1 */
+/* definition of blockIdx.z at 1 */
+/* definition of blockDim.x at 1 */
+/* definition of blockDim.y at 1 */
+/* definition of blockDim.z at 1 */
+/* definition of gridDim.x at 1 */
+/* definition of gridDim.y at 1 */
+/* definition of gridDim.z at 1 */
+/* definition of posb at 3 */
+/* definition of conda at 3 */
+/* definition of condb at 3 */
+/* definition of posb at 6 */
+/* definition of conda at 6 */
+/* definition of condb at 6 */
+/* definition of posb at 9 */
+/* definition of conda at 9 */
+/* definition of condb at 9 */
+/* definition of posb at 12 */
+/* definition of conda at 12 */
+/* definition of condb at 12 */
+/* definition of s_a at 15 */
+/* definition of d_b at 20 */
+/* definition of d_a at 1 */
+/* definition of d_b at 1 */
+/* definition of number at 1 */
+/* definition of N at 1 */
+/* definition of mode at 1 */
+/* definition of idx at 1 */
+/* definition of idy at 1 */
+/* definition of pos at 1 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of blockDim.x at 1 */
+/* cusage of blockIdx.x at 1 */
+/* cusage of threadIdx.y at 1 */
+/* cusage of blockDim.y at 1 */
+/* cusage of blockIdx.y at 1 */
+/* cusage of idx at 1 */
+/* cusage of idy at 1 */
+/* cusage of N at 1 */
+/* cusage of mode at 2 */
+/* cusage of pos at 3 */
+/* cusage of idx at 3 */
+/* cusage of idy at 3 */
+/* cusage of mode at 5 */
+/* cusage of pos at 6 */
+/* cusage of idx at 6 */
+/* cusage of idy at 6 */
+/* cusage of N at 6 */
+/* cusage of mode at 8 */
+/* cusage of N at 9 */
+/* cusage of N at 9 */
+/* cusage of pos at 9 */
+/* cusage of idx at 9 */
+/* cusage of idy at 9 */
+/* cusage of mode at 11 */
+/* cusage of N at 12 */
+/* cusage of N at 12 */
+/* cusage of pos at 12 */
+/* cusage of idx at 12 */
+/* cusage of idy at 12 */
+/* cusage of N at 12 */
+/* cusage of d_a at 15 */
+/* cusage of threadIdx.x at 15 */
+/* cusage of threadIdx.y at 15 */
+/* cusage of posb at 15 */
+/* cusage of conda at 19 */
+/* cusage of condb at 19 */
+/* cusage of s_a at 20 */
+/* cusage of pos at 20 */
+/* cusage of threadIdx.x at 20 */
+/* cusage of threadIdx.y at 20 */
+/* cusage of number at 20 */
+/* pusage of idx at 14 */
+/* pusage of idx at 14 */
+/* pusage of N at 14 */
+/* pusage of N at 14 */
+/* pusage of idy at 14 */
+/* pusage of idy at 14 */
+/* pusage of N at 14 */
+/* pusage of N at 14 */
+/* pusage of idx at 18 */
+/* pusage of idx at 18 */
+/* pusage of N at 18 */
+/* pusage of N at 18 */
+/* pusage of idy at 18 */
+/* pusage of idy at 18 */
+/* pusage of N at 18 */
+/* pusage of N at 18 */
+/* susage of d_a at 22 */
+/* susage of d_b at 22 */
+/* m_recv.0 of d_a at 1 */
+/* m_recv.0 of d_b at 1 */
+/* m_recv.0 of number at 1 */
+/* m_recv.0 of N at 1 */
+/* m_recv.0 of mode at 1 */
+/* m_send.0 of d_a at 22 */
+/* m_send.0 of d_b at 22 */
+/* global of d_a at 0 */
+/* global of d_b at 0 */
+/* global of number at 0 */
+/* global of N at 0 */
+/* global of mode at 0 */
+/* shared of s_a at 0 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+2 -> 4;
+4 -> 5;
+5 -> 6;
+6 -> 7;
+5 -> 7;
+7 -> 8;
+8 -> 9;
+9 -> 10;
+8 -> 10;
+10 -> 11;
+11 -> 12;
+12 -> 13;
+11 -> 13;
+13 -> 14;
+14 -> 15;
+15 -> 16;
+14 -> 16;
+16 -> 17;
+17 -> 18;
+18 -> 19;
+19 -> 20;
+20 -> 21;
+19 -> 21;
+21 -> 22;
+18 -> 22;
+}

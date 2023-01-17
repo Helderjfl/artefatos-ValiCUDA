@@ -1,0 +1,111 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 2-0, size>, coberto
+2) <1-0, 3-0, size>, coberto
+3) <1-0, 4-0, size>, coberto
+4) <1-0, 6-0, N>, coberto
+5) <1-0, 7-0, h_a>, coberto
+6) <1-0, 10-0, N>, coberto
+7) <1-0, 11-0, h_b>, coberto
+8) <1-0, 14-0, size>, coberto
+9) <1-0, 22-0, N>, coberto
+10) <1-0, 27-0, h_a>, coberto
+11) <1-0, 27-0, h_b>, coberto
+12) <5-0, 7-0, i>, coberto
+13) <5-0, 8-0, i>, coberto
+14) <9-0, 11-0, i>, coberto
+15) <9-0, 12-0, i>, coberto
+16) <13-0, 25-0, d_a>, coberto
+17) <14-0, 15-0, gridsize>, coberto
+18) <14-0, 15-0, blocksize>, coberto
+19) <14-0, 26-0, d_b>, coberto
+20) <16-0, 22-0, h_c>, coberto
+21) <16-0, 27-0, h_c>, coberto
+22) <17-0, 22-0, i>, coberto
+23) <17-0, 24-0, i>, coberto
+24) <20-0, 22-0, j>, coberto
+25) <20-0, 23-0, j>, coberto
+26) <1-1, 3-1, gridDim.x>, cobertura 100.00%
+27) <1-1, 4-1, idy>, cobertura 100.00%
+28) <1-1, 4-1, N>, cobertura 100.00%
+29) <1-1, 4-1, threadIdx.x>, cobertura 100.00%
+30) <1-1, 4-1, threadIdx.y>, cobertura 100.00%
+31) <1-1, 4-1, idx>, cobertura 100.00%
+32) <1-1, 5-1, N>, cobertura 100.00%
+33) <1-1, 6-1, d_a>, cobertura 75.00%
+34) <1-1, 6-1, threadIdx.y>, cobertura 75.00%
+35) <1-1, 6-1, threadIdx.x>, cobertura 75.00%
+36) <1-1, 7-1, threadIdx.y>, cobertura 26.56%
+37) <1-1, 7-1, threadIdx.x>, cobertura 26.56%
+38) <1-1, 9-1, N>, cobertura 100.00%
+39) <1-1, 10-1, d_b>, cobertura 100.00%
+40) <1-1, 10-1, threadIdx.y>, cobertura 100.00%
+41) <1-1, 10-1, threadIdx.x>, cobertura 100.00%
+42) <1-1, 11-1, threadIdx.y>, cobertura 51.56%
+43) <1-1, 11-1, threadIdx.x>, cobertura 51.56%
+44) <1-1, 18-1, threadIdx.y>, cobertura 56.25%
+45) <1-1, 18-1, threadIdx.x>, cobertura 56.25%
+49) <1-1, 27-1, pos>, cobertura 56.25%
+50) <1-1, 27-1, temp_result>, cobertura 56.25%
+51) <2-1, 4-1, tile_idx>, cobertura 100.00%
+52) <2-1, 24-1, tile_idx>, cobertura 100.00%
+53) <4-1, 6-1, posa>, cobertura 75.00%
+54) <4-1, 10-1, posb>, cobertura 100.00%
+59) <16-1, 18-1, i>, cobertura 56.25%
+61) <16-1, 21-1, i>, cobertura 56.25%
+64) <1-0, (18-0, 19-0), N>, coberto
+65) <1-0, (18-0, 25-0), N>, coberto
+66) <1-0, (21-0, 22-0), N>, coberto
+67) <1-0, (21-0, 24-0), N>, coberto
+68) <5-0, (6-0, 7-0), i>, coberto
+69) <5-0, (6-0, 9-0), i>, coberto
+70) <9-0, (10-0, 11-0), i>, coberto
+71) <9-0, (10-0, 13-0), i>, coberto
+72) <17-0, (18-0, 19-0), i>, coberto
+73) <17-0, (18-0, 25-0), i>, coberto
+74) <20-0, (21-0, 22-0), j>, coberto
+75) <20-0, (21-0, 24-0), j>, coberto
+76) <1-1, (14-1, 15-1), idx>, cobertura 56.25%
+77) <1-1, (14-1, 22-1), idx>, cobertura 43.75%
+78) <1-1, (14-1, 15-1), N>, cobertura 56.25%
+79) <1-1, (14-1, 22-1), N>, cobertura 43.75%
+80) <1-1, (14-1, 15-1), idy>, cobertura 56.25%
+81) <1-1, (14-1, 22-1), idy>, cobertura 43.75%
+82) <1-1, (26-1, 27-1), idx>, cobertura 56.25%
+83) <1-1, (26-1, 28-1), idx>, cobertura 43.75%
+84) <1-1, (26-1, 27-1), N>, cobertura 56.25%
+85) <1-1, (26-1, 28-1), N>, cobertura 43.75%
+86) <1-1, (26-1, 27-1), idy>, cobertura 56.25%
+87) <1-1, (26-1, 28-1), idy>, cobertura 43.75%
+88) <2-1, (3-1, 4-1), tile_idx>, cobertura 100.00%
+89) <2-1, (3-1, 25-1), tile_idx>, cobertura 100.00%
+90) <4-1, (5-1, 6-1), posa>, cobertura 75.00%
+91) <4-1, (5-1, 7-1), posa>, cobertura 26.56%
+92) <4-1, (9-1, 10-1), posb>, cobertura 100.00%
+93) <4-1, (9-1, 11-1), posb>, cobertura 51.56%
+95) <6-1, (18-1, 20-1), s_a>, cobertura 56.25%
+97) <7-1, (18-1, 20-1), s_a>, cobertura 0.78%
+99) <10-1, (18-1, 20-1), s_b>, cobertura 56.25%
+101) <11-1, (18-1, 20-1), s_b>, cobertura 18.75%
+102) <16-1, (17-1, 18-1), i>, cobertura 56.25%
+103) <16-1, (17-1, 22-1), i>, cobertura 56.25%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+46) <1-1, 19-1, temp_result>
+47) <1-1, 19-1, threadIdx.y>
+48) <1-1, 19-1, threadIdx.x>
+55) <6-1, 19-1, s_a>
+56) <7-1, 19-1, s_a>
+57) <10-1, 19-1, s_b>
+58) <11-1, 19-1, s_b>
+60) <16-1, 19-1, i>
+62) <19-1, 19-1, temp_result>
+63) <19-1, 27-1, temp_result>
+94) <6-1, (18-1, 19-1), s_a>
+96) <7-1, (18-1, 19-1), s_a>
+98) <10-1, (18-1, 19-1), s_b>
+100) <11-1, (18-1, 19-1), s_b>
+
+Threads: 35789 / 67621
+Coverage for the todos-usos criterion: 52.93%

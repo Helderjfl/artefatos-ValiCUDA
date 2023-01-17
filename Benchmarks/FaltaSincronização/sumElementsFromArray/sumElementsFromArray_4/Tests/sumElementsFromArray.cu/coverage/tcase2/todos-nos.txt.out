@@ -1,0 +1,71 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 1-0, coberto
+2) 2-0, coberto
+3) 3-0, coberto
+4) 4-0, coberto
+5) 5-0, coberto
+6) 6-0, coberto
+7) 7-0, coberto
+8) 8-0, coberto
+9) 9-0, coberto
+10) 10-0, coberto
+11) 11-0, coberto
+12) 12-0, coberto
+13) 13-0, coberto
+14) 14-0, coberto
+15) 15-0, coberto
+16) 16-0, coberto
+17) 17-0, coberto
+18) 18-0, coberto
+19) 19-0, coberto
+20) 20-0, coberto
+21) 21-0, coberto
+22) 22-0, coberto
+23) 23-0, coberto
+24) 24-0, coberto
+25) 25-0, coberto
+26) 26-0, coberto
+27) 27-0, coberto
+28) 1-1, cobertura 100.00%
+29) 2-1, cobertura 100.00%
+31) 4-1, cobertura 100.00%
+32) 5-1, cobertura 100.00%
+33) 6-1, cobertura 100.00%
+34) 7-1, cobertura 100.00%
+35) 8-1, cobertura 100.00%
+36) 9-1, cobertura 100.00%
+37) 10-1, cobertura 100.00%
+38) 11-1, cobertura 100.00%
+39) 12-1, cobertura 50.00%
+40) 13-1, cobertura 100.00%
+41) 14-1, cobertura 100.00%
+42) 15-1, cobertura 100.00%
+43) 16-1, cobertura 100.00%
+44) 17-1, cobertura 0.39%
+45) 18-1, cobertura 100.00%
+46) 1-2, cobertura 100.00%
+47) 2-2, cobertura 100.00%
+49) 4-2, cobertura 100.00%
+50) 5-2, cobertura 100.00%
+51) 6-2, cobertura 100.00%
+52) 7-2, cobertura 100.00%
+53) 8-2, cobertura 100.00%
+54) 9-2, cobertura 100.00%
+55) 10-2, cobertura 100.00%
+56) 11-2, cobertura 100.00%
+57) 12-2, cobertura 100.00%
+58) 13-2, cobertura 50.00%
+59) 14-2, cobertura 100.00%
+60) 15-2, cobertura 100.00%
+61) 16-2, cobertura 100.00%
+62) 17-2, cobertura 0.39%
+63) 18-2, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+30) 3-1
+48) 3-2
+
+Threads: 31779 / 36891
+Coverage for the todos-nos criterion: 86.14%

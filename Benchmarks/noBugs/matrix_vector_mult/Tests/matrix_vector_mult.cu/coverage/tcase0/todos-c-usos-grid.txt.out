@@ -1,0 +1,21 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 3-1, d_b>, cobertura 0.39%
+2) <1-1, 3-1, idx>, cobertura 0.39%
+3) <1-1, 9-1, d_a>, cobertura 0.39%
+4) <1-1, 9-1, tempValue>, cobertura 0.39%
+5) <1-1, 9-1, idx>, cobertura 0.39%
+6) <1-1, 9-1, N>, cobertura 0.39%
+7) <1-1, 13-1, idx>, cobertura 0.39%
+9) <3-1, 9-1, array>, cobertura 0.39%
+10) <7-1, 9-1, k>, cobertura 0.39%
+11) <7-1, 10-1, k>, cobertura 0.39%
+13) <9-1, 13-1, tempValue>, cobertura 0.39%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+8) <1-1, 13-1, tempValue>
+12) <9-1, 9-1, tempValue>
+
+Threads: 11 / 3328
+Coverage for the todos-c-usos-grid criterion: 0.33%

@@ -1,0 +1,99 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 2-0, size>, coberto
+2) <1-0, 3-0, size>, coberto
+3) <1-0, 4-0, size>, coberto
+4) <1-0, 7-0, h_in>, coberto
+5) <1-0, 11-0, h_in>, coberto
+6) <1-0, 13-0, size>, coberto
+7) <1-0, 13-0, N>, coberto
+8) <1-0, 16-0, h_out>, coberto
+9) <5-0, 7-0, i>, coberto
+10) <5-0, 8-0, i>, coberto
+11) <9-0, 11-0, i>, coberto
+12) <9-0, 12-0, i>, coberto
+13) <13-0, 14-0, gridsize>, coberto
+14) <13-0, 14-0, blocksize>, coberto
+15) <13-0, 15-0, blocksize>, coberto
+16) <13-0, 17-0, gridsize>, coberto
+17) <13-0, 17-0, blocksize>, coberto
+18) <13-0, 18-0, blocksize>, coberto
+19) <16-0, 19-0, h_out>, coberto
+20) <1-1, 3-1, g_data>, cobertura 100.00%
+21) <1-1, 3-1, tid>, cobertura 100.00%
+22) <1-1, 3-1, i>, cobertura 100.00%
+23) <1-1, 6-1, blockDim.x>, cobertura 100.00%
+24) <1-1, 15-1, tid>, cobertura 100.00%
+25) <1-1, 9-1, tid>, cobertura 50.00%
+26) <1-1, 10-1, tid>, cobertura 50.00%
+27) <1-1, 16-1, blockIdx.x>, cobertura 0.20%
+30) <3-1, 10-1, sdata>, cobertura 50.00%
+32) <6-1, 9-1, s>, cobertura 50.00%
+33) <6-1, 10-1, s>, cobertura 50.00%
+34) <6-1, 14-1, s>, cobertura 100.00%
+35) <10-1, 10-1, sdata>, cobertura 25.00%
+36) <10-1, 16-1, sdata>, cobertura 0.20%
+37) <1-2, 3-2, g_data>, cobertura 1.56%
+38) <1-2, 3-2, tid>, cobertura 1.56%
+39) <1-2, 3-2, i>, cobertura 1.56%
+40) <1-2, 6-2, blockDim.x>, cobertura 100.00%
+41) <1-2, 15-2, tid>, cobertura 100.00%
+42) <1-2, 9-2, tid>, cobertura 100.00%
+43) <1-2, 10-2, tid>, cobertura 0.78%
+44) <1-2, 16-2, blockIdx.x>, cobertura 0.39%
+47) <3-2, 10-2, sdata>, cobertura 0.78%
+49) <6-2, 9-2, s>, cobertura 100.00%
+50) <6-2, 10-2, s>, cobertura 0.78%
+51) <6-2, 14-2, s>, cobertura 100.00%
+52) <10-2, 10-2, sdata>, cobertura 0.39%
+53) <10-2, 16-2, sdata>, cobertura 0.39%
+54) <1-3, 3-3, g_data>, cobertura 100.00%
+55) <1-3, 3-3, tid>, cobertura 100.00%
+56) <1-3, 3-3, i>, cobertura 100.00%
+57) <1-3, 5-3, blockDim.x>, cobertura 100.00%
+58) <1-3, 7-3, i>, cobertura 100.00%
+59) <1-3, 14-3, tid>, cobertura 100.00%
+60) <1-3, 8-3, tid>, cobertura 50.00%
+62) <1-3, 15-3, blockIdx.x>, cobertura 0.20%
+66) <3-3, 15-3, sdata>, cobertura 0.20%
+67) <5-3, 7-3, s>, cobertura 100.00%
+68) <5-3, 8-3, s>, cobertura 50.00%
+70) <5-3, 13-3, s>, cobertura 100.00%
+73) <1-4, 3-4, g_data>, cobertura 1.56%
+74) <1-4, 3-4, tid>, cobertura 1.56%
+75) <1-4, 3-4, i>, cobertura 1.56%
+76) <1-4, 5-4, blockDim.x>, cobertura 100.00%
+77) <1-4, 7-4, i>, cobertura 100.00%
+78) <1-4, 14-4, tid>, cobertura 100.00%
+79) <1-4, 8-4, tid>, cobertura 0.78%
+81) <1-4, 15-4, blockIdx.x>, cobertura 0.39%
+85) <3-4, 15-4, sdata>, cobertura 0.39%
+86) <5-4, 7-4, s>, cobertura 100.00%
+87) <5-4, 8-4, s>, cobertura 0.78%
+89) <5-4, 13-4, s>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+28) <1-1, 10-1, sdata>
+29) <1-1, 16-1, sdata>
+31) <3-1, 16-1, sdata>
+45) <1-2, 10-2, sdata>
+46) <1-2, 16-2, sdata>
+48) <3-2, 16-2, sdata>
+61) <1-3, 9-3, tid>
+63) <1-3, 9-3, sdata>
+64) <1-3, 15-3, sdata>
+65) <3-3, 9-3, sdata>
+69) <5-3, 9-3, s>
+71) <9-3, 9-3, sdata>
+72) <9-3, 15-3, sdata>
+80) <1-4, 9-4, tid>
+82) <1-4, 9-4, sdata>
+83) <1-4, 15-4, sdata>
+84) <3-4, 9-4, sdata>
+88) <5-4, 9-4, s>
+90) <9-4, 9-4, sdata>
+91) <9-4, 15-4, sdata>
+
+Threads: 38986 / 82963
+Coverage for the todos-c-usos criterion: 46.99%

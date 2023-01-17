@@ -1,0 +1,89 @@
+digraph cfg{
+node [shape = doublecircle] 19;
+node [shape = circle];
+/* definition of a at 1 */
+/* definition of b at 1 */
+/* definition of c at 1 */
+/* definition of i at 2 */
+/* definition of i at 2 */
+/* definition of a at 4 */
+/* definition of b at 4 */
+/* definition of d_a at 9 */
+/* definition of a at 9 */
+/* definition of d_b at 10 */
+/* definition of b at 10 */
+/* definition of c at 12 */
+/* definition of i at 13 */
+/* definition of i at 13 */
+/* definition of argc at 1 */
+/* definition of argv at 1 */
+/* definition of N at 1 */
+/* definition of size at 1 */
+/* cusage of N at 1 */
+/* cusage of size at 1 */
+/* cusage of size at 1 */
+/* cusage of size at 1 */
+/* cusage of i at 5 */
+/* cusage of i at 4 */
+/* cusage of i at 4 */
+/* cusage of i at 4 */
+/* cusage of d_a at 6 */
+/* cusage of N at 6 */
+/* cusage of d_b at 7 */
+/* cusage of size at 7 */
+/* cusage of d_c at 8 */
+/* cusage of size at 8 */
+/* cusage of i at 16 */
+/* cusage of c at 15 */
+/* cusage of i at 15 */
+/* cusage of d_a at 17 */
+/* cusage of d_b at 18 */
+/* cusage of d_c at 19 */
+/* pusage of i at 3 */
+/* pusage of i at 3 */
+/* pusage of N at 3 */
+/* pusage of N at 3 */
+/* pusage of i at 14 */
+/* pusage of i at 14 */
+/* pusage of N at 14 */
+/* pusage of N at 14 */
+/* syncNode at 6 */
+/* syncNode at 7 */
+/* syncNode at 8 */
+/* syncNode at 9 */
+/* syncNode at 10 */
+/* syncNode at 11 */
+/* syncNode at 12 */
+/* syncNode at 17 */
+/* syncNode at 18 */
+/* syncNode at 19 */
+/* susage of d_a at 11 */
+/* susage of d_b at 11 */
+/* susage of d_c at 11 */
+/* m_send.1 of d_a at 11 */
+/* m_send.1 of d_b at 11 */
+/* m_send.1 of d_c at 11 */
+/* m_recv.1 of d_a at 12 */
+/* m_recv.1 of d_b at 12 */
+/* m_recv.1 of d_c at 12 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+4 -> 5;
+5 -> 3;
+3 -> 6;
+6 -> 7;
+7 -> 8;
+8 -> 9;
+9 -> 10;
+10 -> 11;
+11 -> 12;
+12 -> 13;
+13 -> 14;
+14 -> 15;
+15 -> 16;
+16 -> 14;
+14 -> 17;
+17 -> 18;
+18 -> 19;
+}

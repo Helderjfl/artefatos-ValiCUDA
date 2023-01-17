@@ -1,0 +1,13 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 6-0 7-0, coberto
+2) 10-0 11-0, coberto
+3) 21-0 22-0, coberto
+4) 21-0 24-0, coberto
+5) 18-0 25-0, coberto
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 5 / 5
+Coverage for the todas-arestas-host criterion: 100.00%

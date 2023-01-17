@@ -1,0 +1,42 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 4-0, h_idata>, coberto
+2) <1-0, 6-0, bytes>, coberto
+3) <1-0, 7-0, gridsize>, coberto
+4) <1-0, 10-0, gridsize>, coberto
+5) <1-0, 10-0, blocksize>, coberto
+6) <1-0, 12-0, gridsize>, coberto
+7) <1-0, 16-0, gridsize>, coberto
+8) <1-0, 16-0, blocksize>, coberto
+9) <1-0, 19-0, gridsize>, coberto
+10) <1-0, 19-0, blocksize>, coberto
+11) <1-0, 21-0, gridsize>, coberto
+12) <1-0, 25-0, gridsize>, coberto
+13) <1-0, 25-0, blocksize>, coberto
+14) <1-0, 25-0, h_idata>, coberto
+15) <2-0, 4-0, i>, coberto
+16) <2-0, 5-0, i>, coberto
+17) <5-0, 6-0, d_idata>, coberto
+18) <5-0, 7-0, d_odata>, coberto
+19) <5-0, 16-0, d_odata>, coberto
+20) <5-0, 27-0, d_odata>, coberto
+21) <12-0, 15-0, h_odata>, coberto
+22) <12-0, 15-0, gpu_sum>, coberto
+23) <13-0, 15-0, i>, coberto
+24) <13-0, 16-0, i>, coberto
+25) <15-0, 16-0, gpu_sum>, coberto
+26) <15-0, 15-0, gpu_sum>, coberto
+27) <17-0, 26-0, d_idata>, coberto
+28) <21-0, 24-0, h_odata>, coberto
+29) <21-0, 24-0, gpu_sum>, coberto
+30) <21-0, 25-0, h_odata>, coberto
+31) <22-0, 24-0, i>, coberto
+32) <22-0, 25-0, i>, coberto
+33) <24-0, 25-0, gpu_sum>, coberto
+34) <24-0, 24-0, gpu_sum>, coberto
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 34 / 34
+Coverage for the todos-c-usos-host criterion: 100.00%

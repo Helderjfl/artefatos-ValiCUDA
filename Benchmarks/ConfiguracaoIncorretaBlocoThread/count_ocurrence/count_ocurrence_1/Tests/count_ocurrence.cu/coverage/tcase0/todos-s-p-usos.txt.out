@@ -1,0 +1,14 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+2) <1-0, (9-0, 1-1), (3-1, 5-1), value, value>, cobertura 0.01%
+3) <1-0, (9-0, 1-1), (2-1, 3-1), N, N>, cobertura 0.01%
+4) <1-0, (9-0, 1-1), (2-1, 6-1), N, N>, cobertura 99.99%
+6) <8-0, (9-0, 1-1), (3-1, 5-1), g_data, g_data>, cobertura 0.01%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+1) <1-0, (9-0, 1-1), (3-1, 4-1), value, value>
+5) <8-0, (9-0, 1-1), (3-1, 4-1), g_data, g_data>
+
+Threads: 8194 / 49152
+Coverage for the todos-s-p-usos criterion: 16.67%

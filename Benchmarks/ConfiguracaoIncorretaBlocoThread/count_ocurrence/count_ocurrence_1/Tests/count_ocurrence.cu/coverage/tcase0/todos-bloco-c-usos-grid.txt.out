@@ -1,0 +1,14 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 11-1, sdata>, cobertura 50.00%
+5) <11-1, 11-1, sdata>, cobertura 25.00%
+6) <11-1, 16-1, sdata>, cobertura 12.50%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+2) <1-1, 16-1, sdata>
+3) <4-1, 11-1, sdata>
+4) <4-1, 16-1, sdata>
+
+Threads: 7168 / 49152
+Coverage for the todos-bloco-c-usos-grid criterion: 14.58%

@@ -1,0 +1,98 @@
+digraph cfg{
+node [shape = doublecircle] 13;
+node [shape = circle];
+/* definition of threadIdx.x at 1 */
+/* definition of threadIdx.y at 1 */
+/* definition of threadIdx.z at 1 */
+/* definition of blockIdx.x at 1 */
+/* definition of blockIdx.y at 1 */
+/* definition of blockIdx.z at 1 */
+/* definition of blockDim.x at 1 */
+/* definition of blockDim.y at 1 */
+/* definition of blockDim.z at 1 */
+/* definition of gridDim.x at 1 */
+/* definition of gridDim.y at 1 */
+/* definition of gridDim.z at 1 */
+/* definition of array at 3 */
+/* definition of k at 6 */
+/* definition of k at 6 */
+/* definition of tempValue at 8 */
+/* definition of d_c at 12 */
+/* definition of d_a at 1 */
+/* definition of d_b at 1 */
+/* definition of d_c at 1 */
+/* definition of N at 1 */
+/* definition of idx at 1 */
+/* definition of idy at 1 */
+/* definition of pos at 1 */
+/* definition of tempValue at 1 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of blockDim.x at 1 */
+/* cusage of blockIdx.x at 1 */
+/* cusage of threadIdx.y at 1 */
+/* cusage of blockDim.y at 1 */
+/* cusage of blockIdx.y at 1 */
+/* cusage of idx at 1 */
+/* cusage of idy at 1 */
+/* cusage of N at 1 */
+/* cusage of d_b at 3 */
+/* cusage of idx at 3 */
+/* cusage of idx at 3 */
+/* cusage of k at 9 */
+/* cusage of d_a at 8 */
+/* cusage of array at 8 */
+/* cusage of tempValue at 8 */
+/* cusage of idx at 8 */
+/* cusage of N at 8 */
+/* cusage of k at 8 */
+/* cusage of k at 8 */
+/* cusage of idx at 12 */
+/* cusage of tempValue at 12 */
+/* pusage of idx at 2 */
+/* pusage of idx at 2 */
+/* pusage of N at 2 */
+/* pusage of N at 2 */
+/* pusage of idx at 5 */
+/* pusage of idx at 5 */
+/* pusage of N at 5 */
+/* pusage of N at 5 */
+/* pusage of k at 7 */
+/* pusage of k at 7 */
+/* pusage of N at 7 */
+/* pusage of N at 7 */
+/* pusage of pos at 11 */
+/* pusage of pos at 11 */
+/* pusage of N at 11 */
+/* pusage of N at 11 */
+/* susage of d_a at 13 */
+/* susage of d_b at 13 */
+/* susage of d_c at 13 */
+/* m_recv.0 of d_a at 1 */
+/* m_recv.0 of d_b at 1 */
+/* m_recv.0 of d_c at 1 */
+/* m_recv.0 of N at 1 */
+/* m_send.0 of d_a at 13 */
+/* m_send.0 of d_b at 13 */
+/* m_send.0 of d_c at 13 */
+/* global of d_a at 0 */
+/* global of d_b at 0 */
+/* global of d_c at 0 */
+/* global of N at 0 */
+/* shared of array at 0 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+2 -> 4;
+4 -> 5;
+5 -> 6;
+6 -> 7;
+7 -> 8;
+8 -> 9;
+9 -> 7;
+7 -> 10;
+5 -> 10;
+10 -> 11;
+11 -> 12;
+12 -> 13;
+11 -> 13;
+}

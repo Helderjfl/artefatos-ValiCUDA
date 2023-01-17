@@ -1,0 +1,10 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <8-0, (10-0, 1-1), 4-1, d_idata, d_idata>, cobertura 100.00%
+2) <17-0, (19-0, 1-2), 4-2, d_idata, d_idata>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 2048 / 2048
+Coverage for the todos-s-c-usos criterion: 100.00%

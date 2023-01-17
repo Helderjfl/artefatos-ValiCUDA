@@ -1,0 +1,81 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 4-0, h_idata>, coberto
+2) <1-0, 6-0, bytes>, coberto
+3) <1-0, 7-0, gridsize>, coberto
+4) <1-0, 10-0, gridsize>, coberto
+5) <1-0, 10-0, blocksize>, coberto
+6) <1-0, 12-0, gridsize>, coberto
+7) <1-0, 16-0, gridsize>, coberto
+8) <1-0, 16-0, blocksize>, coberto
+9) <1-0, 19-0, gridsize>, coberto
+10) <1-0, 19-0, blocksize>, coberto
+11) <1-0, 21-0, gridsize>, coberto
+12) <1-0, 25-0, gridsize>, coberto
+13) <1-0, 25-0, blocksize>, coberto
+14) <1-0, 25-0, h_idata>, coberto
+15) <2-0, 4-0, i>, coberto
+16) <2-0, 5-0, i>, coberto
+17) <5-0, 6-0, d_idata>, coberto
+18) <5-0, 7-0, d_odata>, coberto
+19) <5-0, 16-0, d_odata>, coberto
+20) <5-0, 27-0, d_odata>, coberto
+21) <12-0, 15-0, h_odata>, coberto
+22) <12-0, 15-0, gpu_sum>, coberto
+23) <13-0, 15-0, i>, coberto
+24) <13-0, 16-0, i>, coberto
+25) <15-0, 16-0, gpu_sum>, coberto
+26) <15-0, 15-0, gpu_sum>, coberto
+27) <17-0, 26-0, d_idata>, coberto
+28) <21-0, 24-0, h_odata>, coberto
+29) <21-0, 24-0, gpu_sum>, coberto
+30) <21-0, 25-0, h_odata>, coberto
+31) <22-0, 24-0, i>, coberto
+32) <22-0, 25-0, i>, coberto
+33) <24-0, 25-0, gpu_sum>, coberto
+34) <24-0, 24-0, gpu_sum>, coberto
+35) <1-1, 4-1, d_idata>, cobertura 100.00%
+36) <1-1, 4-1, blockIdx.x>, cobertura 100.00%
+37) <1-1, 4-1, blockDim.x>, cobertura 100.00%
+38) <1-1, 5-1, tid>, cobertura 100.00%
+39) <1-1, 6-1, tid>, cobertura 100.00%
+40) <1-1, 10-1, blockDim.x>, cobertura 100.00%
+41) <1-1, 11-1, tid>, cobertura 100.00%
+42) <1-1, 16-1, tid>, cobertura 100.00%
+43) <1-1, 12-1, tid>, cobertura 50.00%
+44) <1-1, 17-1, blockIdx.x>, cobertura 0.39%
+47) <6-1, 12-1, idata>, cobertura 50.00%
+49) <9-1, 11-1, stride>, cobertura 100.00%
+50) <9-1, 12-1, stride>, cobertura 50.00%
+51) <9-1, 15-1, stride>, cobertura 100.00%
+52) <12-1, 12-1, idata>, cobertura 25.00%
+53) <12-1, 17-1, idata>, cobertura 0.39%
+54) <1-2, 4-2, d_idata>, cobertura 100.00%
+55) <1-2, 4-2, blockIdx.x>, cobertura 100.00%
+56) <1-2, 4-2, blockDim.x>, cobertura 100.00%
+57) <1-2, 5-2, tid>, cobertura 100.00%
+58) <1-2, 6-2, tid>, cobertura 100.00%
+59) <1-2, 10-2, blockDim.x>, cobertura 100.00%
+60) <1-2, 11-2, tid>, cobertura 100.00%
+61) <1-2, 17-2, tid>, cobertura 100.00%
+62) <1-2, 12-2, blockDim.x>, cobertura 100.00%
+63) <1-2, 18-2, blockIdx.x>, cobertura 0.39%
+66) <6-2, 13-2, idata>, cobertura 50.00%
+68) <9-2, 11-2, stride>, cobertura 100.00%
+69) <9-2, 13-2, stride>, cobertura 50.00%
+70) <9-2, 16-2, stride>, cobertura 100.00%
+71) <11-2, 13-2, index>, cobertura 50.00%
+72) <13-2, 13-2, idata>, cobertura 25.00%
+73) <13-2, 18-2, idata>, cobertura 0.39%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+45) <4-1, 12-1, idata>
+46) <4-1, 17-1, idata>
+48) <6-1, 17-1, idata>
+64) <4-2, 13-2, idata>
+65) <4-2, 18-2, idata>
+67) <6-2, 18-2, idata>
+
+Threads: 25138 / 39970
+Coverage for the todos-c-usos criterion: 62.89%

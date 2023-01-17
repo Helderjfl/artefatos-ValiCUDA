@@ -1,0 +1,15 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 2-0, coberto
+2) 3-0, coberto
+3) 8-0, coberto
+4) 9-0, coberto
+5) 10-0, coberto
+6) 18-0, coberto
+7) 19-0, coberto
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 7 / 7
+Coverage for the todos-nos-sinc-host criterion: 100.00%

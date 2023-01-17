@@ -1,0 +1,90 @@
+digraph cfg{
+node [shape = doublecircle] 16;
+node [shape = circle];
+/* definition of h_in at 1 */
+/* definition of h_out at 1 */
+/* definition of i at 4 */
+/* definition of i at 4 */
+/* definition of g_data at 8 */
+/* definition of h_out at 10 */
+/* definition of i at 12 */
+/* definition of i at 12 */
+/* definition of h_out at 14 */
+/* definition of argc at 1 */
+/* definition of argv at 1 */
+/* definition of numBlock at 1 */
+/* definition of numThread at 1 */
+/* definition of gridsize at 1 */
+/* definition of blocksize at 1 */
+/* definition of N at 1 */
+/* definition of value at 1 */
+/* definition of size at 1 */
+/* definition of sizeOutput at 1 */
+/* cusage of numBlock at 1 */
+/* cusage of numThread at 1 */
+/* cusage of numBlock at 1 */
+/* cusage of numThread at 1 */
+/* cusage of N at 1 */
+/* cusage of numBlock at 1 */
+/* cusage of size at 1 */
+/* cusage of sizeOutput at 1 */
+/* cusage of g_data at 2 */
+/* cusage of size at 2 */
+/* cusage of g_odata at 3 */
+/* cusage of sizeOutput at 3 */
+/* cusage of i at 7 */
+/* cusage of h_in at 6 */
+/* cusage of i at 6 */
+/* cusage of g_odata at 8 */
+/* cusage of sizeOutput at 8 */
+/* cusage of gridsize at 9 */
+/* cusage of blocksize at 9 */
+/* cusage of i at 15 */
+/* cusage of h_out at 14 */
+/* cusage of h_out at 14 */
+/* cusage of i at 14 */
+/* cusage of h_out at 16 */
+/* pusage of i at 5 */
+/* pusage of i at 5 */
+/* pusage of N at 5 */
+/* pusage of N at 5 */
+/* pusage of N at 11 */
+/* pusage of N at 11 */
+/* pusage of i at 13 */
+/* pusage of i at 13 */
+/* pusage of numBlock at 13 */
+/* pusage of numBlock at 13 */
+/* syncNode at 2 */
+/* syncNode at 3 */
+/* syncNode at 8 */
+/* syncNode at 9 */
+/* syncNode at 10 */
+/* susage of g_data at 9 */
+/* susage of g_odata at 9 */
+/* susage of value at 9 */
+/* susage of N at 9 */
+/* m_send.1 of g_data at 9 */
+/* m_send.1 of g_odata at 9 */
+/* m_send.1 of value at 9 */
+/* m_send.1 of N at 9 */
+/* m_recv.1 of g_data at 10 */
+/* m_recv.1 of g_odata at 10 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+4 -> 5;
+5 -> 6;
+6 -> 7;
+7 -> 5;
+5 -> 8;
+8 -> 9;
+9 -> 10;
+10 -> 11;
+11 -> 12;
+12 -> 13;
+13 -> 14;
+14 -> 15;
+15 -> 13;
+13 -> 16;
+11 -> 16;
+}

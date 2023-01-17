@@ -1,0 +1,12 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <6-1, 19-1, s_a>, cobertura 71.19%
+2) <7-1, 19-1, s_a>, cobertura 0.49%
+3) <10-1, 19-1, s_b>, cobertura 71.19%
+4) <11-1, 19-1, s_b>, cobertura 13.18%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 1598 / 4096
+Coverage for the todos-bloco-c-usos-grid criterion: 39.01%

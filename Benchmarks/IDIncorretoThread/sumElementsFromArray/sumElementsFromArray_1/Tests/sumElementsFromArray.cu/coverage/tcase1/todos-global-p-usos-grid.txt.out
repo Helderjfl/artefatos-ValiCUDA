@@ -1,0 +1,12 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, (2-1, 3-1), size>, cobertura 0.10%
+2) <1-1, (2-1, 4-1), size>, cobertura 99.90%
+4) <1-2, (2-2, 4-2), size>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+3) <1-2, (2-2, 3-2), size>
+
+Threads: 2048 / 4096
+Coverage for the todos-global-p-usos-grid criterion: 50.00%

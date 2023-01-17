@@ -1,0 +1,100 @@
+digraph cfg{
+node [shape = doublecircle] 20;
+node [shape = circle];
+/* definition of h_a at 1 */
+/* definition of h_b at 1 */
+/* definition of i at 5 */
+/* definition of i at 5 */
+/* definition of i at 9 */
+/* definition of i at 9 */
+/* definition of d_a at 13 */
+/* definition of d_b at 14 */
+/* definition of d_equal at 15 */
+/* definition of h_equal at 17 */
+/* definition of argc at 1 */
+/* definition of argv at 1 */
+/* definition of N at 1 */
+/* definition of size at 1 */
+/* definition of h_equal at 1 */
+/* definition of num_block at 12 */
+/* definition of num_thread at 12 */
+/* definition of gridsize at 14 */
+/* definition of blocksize at 14 */
+/* cusage of N at 1 */
+/* cusage of h_equal at 1 */
+/* cusage of size at 1 */
+/* cusage of size at 1 */
+/* cusage of d_a at 2 */
+/* cusage of size at 2 */
+/* cusage of d_b at 3 */
+/* cusage of size at 3 */
+/* cusage of d_equal at 4 */
+/* cusage of i at 8 */
+/* cusage of h_a at 7 */
+/* cusage of i at 7 */
+/* cusage of i at 12 */
+/* cusage of h_b at 11 */
+/* cusage of i at 11 */
+/* cusage of num_block at 14 */
+/* cusage of num_thread at 14 */
+/* cusage of gridsize at 16 */
+/* cusage of blocksize at 16 */
+/* cusage of h_equal at 17 */
+/* cusage of d_a at 18 */
+/* cusage of d_b at 19 */
+/* cusage of d_equal at 20 */
+/* cusage of h_a at 20 */
+/* cusage of h_b at 20 */
+/* cusage of h_equal at 20 */
+/* pusage of i at 6 */
+/* pusage of i at 6 */
+/* pusage of N at 6 */
+/* pusage of N at 6 */
+/* pusage of i at 10 */
+/* pusage of i at 10 */
+/* pusage of N at 10 */
+/* pusage of N at 10 */
+/* syncNode at 2 */
+/* syncNode at 3 */
+/* syncNode at 4 */
+/* syncNode at 13 */
+/* syncNode at 14 */
+/* syncNode at 15 */
+/* syncNode at 16 */
+/* syncNode at 17 */
+/* syncNode at 18 */
+/* syncNode at 19 */
+/* syncNode at 20 */
+/* susage of d_a at 16 */
+/* susage of d_b at 16 */
+/* susage of d_equal at 16 */
+/* susage of N at 16 */
+/* m_send.1 of d_a at 16 */
+/* m_send.1 of d_b at 16 */
+/* m_send.1 of d_equal at 16 */
+/* m_send.1 of N at 16 */
+/* m_recv.1 of d_a at 17 */
+/* m_recv.1 of d_b at 17 */
+/* m_recv.1 of d_equal at 17 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+4 -> 5;
+5 -> 6;
+6 -> 7;
+7 -> 8;
+8 -> 6;
+6 -> 9;
+9 -> 10;
+10 -> 11;
+11 -> 12;
+12 -> 10;
+10 -> 13;
+13 -> 14;
+14 -> 15;
+15 -> 16;
+16 -> 17;
+17 -> 18;
+18 -> 19;
+19 -> 20;
+}

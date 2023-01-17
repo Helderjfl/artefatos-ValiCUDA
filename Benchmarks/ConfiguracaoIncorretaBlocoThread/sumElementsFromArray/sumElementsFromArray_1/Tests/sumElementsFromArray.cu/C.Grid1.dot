@@ -1,0 +1,96 @@
+digraph cfg{
+node [shape = doublecircle] 19;
+node [shape = circle];
+/* definition of threadIdx.x at 1 */
+/* definition of threadIdx.y at 1 */
+/* definition of threadIdx.z at 1 */
+/* definition of blockIdx.x at 1 */
+/* definition of blockIdx.y at 1 */
+/* definition of blockIdx.z at 1 */
+/* definition of blockDim.x at 1 */
+/* definition of blockDim.y at 1 */
+/* definition of blockDim.z at 1 */
+/* definition of gridDim.x at 1 */
+/* definition of gridDim.y at 1 */
+/* definition of gridDim.z at 1 */
+/* definition of idata at 6 */
+/* definition of stride at 9 */
+/* definition of idata at 13 */
+/* definition of d_odata at 18 */
+/* definition of d_idata at 1 */
+/* definition of d_odata at 1 */
+/* definition of size at 1 */
+/* definition of tid at 1 */
+/* definition of idx at 1 */
+/* definition of idata at 4 */
+/* definition of stride at 9 */
+/* definition of index at 11 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of blockIdx.x at 1 */
+/* cusage of blockDim.x at 1 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of d_idata at 4 */
+/* cusage of blockIdx.x at 4 */
+/* cusage of blockDim.x at 4 */
+/* cusage of tid at 5 */
+/* cusage of tid at 6 */
+/* cusage of blockDim.x at 10 */
+/* cusage of stride at 16 */
+/* cusage of stride at 11 */
+/* cusage of tid at 11 */
+/* cusage of blockDim.x at 12 */
+/* cusage of idata at 13 */
+/* cusage of idata at 13 */
+/* cusage of index at 13 */
+/* cusage of index at 13 */
+/* cusage of stride at 13 */
+/* cusage of tid at 17 */
+/* cusage of idata at 18 */
+/* cusage of blockIdx.x at 18 */
+/* pusage of idx at 2 */
+/* pusage of idx at 2 */
+/* pusage of size at 2 */
+/* pusage of size at 2 */
+/* pusage of idata at 5 */
+/* pusage of idata at 5 */
+/* pusage of stride at 10 */
+/* pusage of stride at 10 */
+/* pusage of index at 12 */
+/* pusage of index at 12 */
+/* susage of d_idata at 19 */
+/* susage of d_odata at 19 */
+/* m_recv.0 of d_idata at 1 */
+/* m_recv.0 of d_odata at 1 */
+/* m_recv.0 of size at 1 */
+/* m_send.0 of d_idata at 19 */
+/* m_send.0 of d_odata at 19 */
+/* global of d_idata at 0 */
+/* global of d_odata at 0 */
+/* global of size at 0 */
+/* global of d_idata at 0 */
+/* global of d_odata at 0 */
+/* global of size at 0 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+2 -> 4;
+4 -> 5;
+5 -> 6;
+6 -> 7;
+5 -> 7;
+7 -> 8;
+8 -> 9;
+9 -> 10;
+10 -> 11;
+11 -> 12;
+12 -> 13;
+13 -> 14;
+12 -> 14;
+14 -> 15;
+15 -> 16;
+16 -> 10;
+10 -> 17;
+17 -> 18;
+18 -> 19;
+17 -> 19;
+}

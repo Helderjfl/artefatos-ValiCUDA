@@ -1,0 +1,135 @@
+digraph cfg{
+node [shape = doublecircle] 27;
+node [shape = circle];
+/* definition of i at 2 */
+/* definition of i at 2 */
+/* definition of d_idata at 8 */
+/* definition of h_odata at 12 */
+/* definition of gpu_sum at 12 */
+/* definition of i at 13 */
+/* definition of i at 13 */
+/* definition of gpu_sum at 15 */
+/* definition of d_idata at 17 */
+/* definition of h_odata at 21 */
+/* definition of gpu_sum at 21 */
+/* definition of i at 22 */
+/* definition of i at 22 */
+/* definition of gpu_sum at 24 */
+/* definition of argc at 1 */
+/* definition of argv at 1 */
+/* definition of size at 1 */
+/* definition of blocksize at 1 */
+/* definition of gridsize at 1 */
+/* definition of bytes at 1 */
+/* definition of h_idata at 1 */
+/* definition of h_odata at 1 */
+/* definition of d_idata at 5 */
+/* definition of d_odata at 5 */
+/* cusage of size at 1 */
+/* cusage of bytes at 1 */
+/* cusage of gridsize at 1 */
+/* cusage of i at 5 */
+/* cusage of h_idata at 4 */
+/* cusage of i at 4 */
+/* cusage of d_idata at 6 */
+/* cusage of bytes at 6 */
+/* cusage of d_odata at 7 */
+/* cusage of gridsize at 7 */
+/* cusage of gridsize at 10 */
+/* cusage of blocksize at 10 */
+/* cusage of gridsize at 12 */
+/* cusage of i at 16 */
+/* cusage of h_odata at 15 */
+/* cusage of gpu_sum at 15 */
+/* cusage of i at 15 */
+/* cusage of d_odata at 16 */
+/* cusage of gridsize at 16 */
+/* cusage of gpu_sum at 16 */
+/* cusage of gridsize at 16 */
+/* cusage of blocksize at 16 */
+/* cusage of gridsize at 19 */
+/* cusage of blocksize at 19 */
+/* cusage of gridsize at 21 */
+/* cusage of i at 25 */
+/* cusage of h_odata at 24 */
+/* cusage of gpu_sum at 24 */
+/* cusage of i at 24 */
+/* cusage of gpu_sum at 25 */
+/* cusage of gridsize at 25 */
+/* cusage of blocksize at 25 */
+/* cusage of h_idata at 25 */
+/* cusage of h_odata at 25 */
+/* cusage of d_idata at 26 */
+/* cusage of d_odata at 27 */
+/* pusage of i at 3 */
+/* pusage of i at 3 */
+/* pusage of size at 3 */
+/* pusage of size at 3 */
+/* pusage of i at 14 */
+/* pusage of i at 14 */
+/* pusage of gridsize at 14 */
+/* pusage of gridsize at 14 */
+/* pusage of i at 23 */
+/* pusage of i at 23 */
+/* pusage of gridsize at 23 */
+/* pusage of gridsize at 23 */
+/* syncNode at 6 */
+/* syncNode at 7 */
+/* syncNode at 8 */
+/* syncNode at 9 */
+/* syncNode at 10 */
+/* syncNode at 11 */
+/* syncNode at 12 */
+/* syncNode at 17 */
+/* syncNode at 18 */
+/* syncNode at 19 */
+/* syncNode at 20 */
+/* syncNode at 21 */
+/* syncNode at 26 */
+/* syncNode at 27 */
+/* susage of d_idata at 10 */
+/* susage of d_odata at 10 */
+/* susage of size at 10 */
+/* susage of d_idata at 19 */
+/* susage of d_odata at 19 */
+/* susage of size at 19 */
+/* m_send.1 of d_idata at 10 */
+/* m_send.1 of d_odata at 10 */
+/* m_send.1 of size at 10 */
+/* m_send.2 of d_idata at 19 */
+/* m_send.2 of d_odata at 19 */
+/* m_send.2 of size at 19 */
+/* m_recv.1 of d_idata at 11 */
+/* m_recv.1 of d_odata at 11 */
+/* m_recv.2 of d_idata at 20 */
+/* m_recv.2 of d_odata at 20 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+4 -> 5;
+5 -> 3;
+3 -> 6;
+6 -> 7;
+7 -> 8;
+8 -> 9;
+9 -> 10;
+10 -> 11;
+11 -> 12;
+12 -> 13;
+13 -> 14;
+14 -> 15;
+15 -> 16;
+16 -> 14;
+14 -> 17;
+17 -> 18;
+18 -> 19;
+19 -> 20;
+20 -> 21;
+21 -> 22;
+22 -> 23;
+23 -> 24;
+24 -> 25;
+25 -> 23;
+23 -> 26;
+26 -> 27;
+}

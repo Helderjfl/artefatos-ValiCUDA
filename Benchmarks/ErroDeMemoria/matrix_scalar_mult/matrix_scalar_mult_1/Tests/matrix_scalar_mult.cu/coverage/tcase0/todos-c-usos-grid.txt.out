@@ -1,0 +1,11 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 3-1, d_a>, cobertura 0.02%
+2) <1-1, 3-1, pos>, cobertura 0.02%
+3) <1-1, 3-1, scalar>, cobertura 0.02%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 3 / 12288
+Coverage for the todos-c-usos-grid criterion: 0.02%

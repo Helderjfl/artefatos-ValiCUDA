@@ -1,0 +1,21 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, (9-0, 1-1), N>, cobertura 100.00%
+2) <1-0, (9-0, 1-1), mode>, cobertura 100.00%
+3) <8-0, (9-0, 1-1), d_a>, cobertura 100.00%
+4) <1-1, (35-1, 10-0), d_a>, cobertura 100.00%
+5) <1-1, (35-1, 10-0), d_b>, cobertura 99.95%
+6) <5-1, (35-1, 10-0), d_b>, cobertura 3.12%
+7) <6-1, (35-1, 10-0), d_b>, cobertura 96.88%
+8) <13-1, (35-1, 10-0), d_b>, cobertura 0.05%
+9) <14-1, (35-1, 10-0), d_b>, cobertura 100.00%
+10) <22-1, (35-1, 10-0), d_b>, cobertura 3.12%
+11) <23-1, (35-1, 10-0), d_b>, cobertura 96.88%
+12) <31-1, (35-1, 10-0), d_b>, cobertura 0.05%
+13) <32-1, (35-1, 10-0), d_b>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 36866 / 53248
+Coverage for the todos-s-usos criterion: 69.23%

@@ -1,0 +1,18 @@
+Critério;Elementos requeridos;Elementos totais;Elem executados 0;Cobertura 0;Elem exec total;Elementos nao executaveis;Cobertura total;
+todos-nos;21;2067;2067;100,0%;2067;0;100,0%
+todos-nos-grid;2;2048;2048;100,0%;2048;0;100,0%
+todos-nos-host;19;19;19;100,0%;19;0;100,0%
+todos-nos-sinc;12;2058;2058;100,0%;2058;0;100,0%
+todos-nos-sinc-host;10;10;10;100,0%;10;0;100,0%
+todos-nos-sinc-grid;2;2048;2048;100,0%;2048;0;100,0%
+todas-arestas;6;3075;3075;100,0%;3075;0;100,0%
+todas-arestas-grid;1;1024;1024;100,0%;1024;0;100,0%
+todas-arestas-host;3;3;3;100,0%;3;0;100,0%
+todas-arestas-sinc;2;2048;2048;100,0%;2048;0;100,0%
+todos-c-usos;10;10;10;100,0%;10;0;100,0%
+todos-c-usos-host;10;10;10;100,0%;10;0;100,0%
+todos-p-usos;8;8;8;100,0%;8;0;100,0%
+todos-p-usos-host;8;8;8;100,0%;8;0;100,0%
+todos-usos;18;18;18;100,0%;18;0;100,0%
+todos-usos-host;18;18;18;100,0%;18;0;100,0%
+todos-s-usos;2;2048;2048;100,0%;2048;0;100,0%

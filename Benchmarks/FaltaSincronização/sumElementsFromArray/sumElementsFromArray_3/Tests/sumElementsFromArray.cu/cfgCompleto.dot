@@ -1,0 +1,97 @@
+digraph CFG{
+	subgraph cluster_0{
+		node [shape = doublecircle] "26";
+		node [shape = circle];
+		label = "main";
+		color=black
+		"0" -> "1"; /*beforeloop*/
+		"1" -> "2"; /*loop*/
+		"2" -> "3"; /*exprStmt*/
+		"3" -> "4"; /*loopend*/
+		"4" -> "2"; /*loopend*/
+		"2" -> "5"; /*exprStmt*/
+		"5" -> "6"; /*exprStmt*/
+		"6" -> "7"; /*exprStmt*/
+		"7" -> "8"; /*exprStmt*/
+		"8" -> "9"; /*exprStmt*/
+		"9" -> "10"; /*exprStmt*/
+		"10" -> "11"; /*exprStmt*/
+		"11" -> "12"; /*beforeloop*/
+		"12" -> "13"; /*loop*/
+		"13" -> "14"; /*exprStmt*/
+		"14" -> "15"; /*loopend*/
+		"15" -> "13"; /*loopend*/
+		"13" -> "16"; /*exprStmt*/
+		"16" -> "17"; /*exprStmt*/
+		"17" -> "18"; /*exprStmt*/
+		"18" -> "19"; /*exprStmt*/
+		"19" -> "20"; /*exprStmt*/
+		"20" -> "21"; /*beforeloop*/
+		"21" -> "22"; /*loop*/
+		"22" -> "23"; /*exprStmt*/
+		"23" -> "24"; /*loopend*/
+		"24" -> "22"; /*loopend*/
+		"22" -> "25"; /*exprStmt*/
+		"25" -> "26"; /*exprStmt*/
+	}
+	subgraph cluster_1{
+		node [shape = doublecircle] "17g0";
+		node [shape = circle];
+		label = "reduceNeighbored";
+		color=black
+		"0g0" -> "1g0"; /*if*/
+		"1g0" -> "2g0"; /*then*/
+		"2g0" -> "3g0"; /*ifend*/
+		"1g0" -> "3g0";/*ifend*/
+		"3g0" -> "4g0"; /*if*/
+		"4g0" -> "5g0"; /*then*/
+		"5g0" -> "6g0"; /*ifend*/
+		"4g0" -> "6g0";/*ifend*/
+		"6g0" -> "7g0"; /*exprStmt*/
+		"7g0" -> "8g0"; /*beforeloop*/
+		"8g0" -> "9g0"; /*loop*/
+		"9g0" -> "10g0"; /*if*/
+		"10g0" -> "11g0"; /*then*/
+		"11g0" -> "12g0"; /*ifend*/
+		"10g0" -> "12g0";/*ifend*/
+		"12g0" -> "13g0"; /*exprStmt*/
+		"13g0" -> "14g0"; /*loopend*/
+		"14g0" -> "9g0"; /*loopend*/
+		"9g0" -> "15g0"; /*if*/
+		"15g0" -> "16g0"; /*then*/
+		"16g0" -> "17g0"; /*ifend*/
+		"15g0" -> "17g0";/*ifend*/
+	}
+	subgraph cluster_2{
+		node [shape = doublecircle] "17g1";
+		node [shape = circle];
+		label = "reduceNeighboredLess";
+		color=black
+		"0g1" -> "1g1"; /*if*/
+		"1g1" -> "2g1"; /*then*/
+		"2g1" -> "3g1"; /*ifend*/
+		"1g1" -> "3g1";/*ifend*/
+		"3g1" -> "4g1"; /*if*/
+		"4g1" -> "5g1"; /*then*/
+		"5g1" -> "6g1"; /*ifend*/
+		"4g1" -> "6g1";/*ifend*/
+		"6g1" -> "7g1"; /*beforeloop*/
+		"7g1" -> "8g1"; /*loop*/
+		"8g1" -> "9g1"; /*declStmt*/
+		"9g1" -> "10g1"; /*if*/
+		"10g1" -> "11g1"; /*then*/
+		"11g1" -> "12g1"; /*ifend*/
+		"10g1" -> "12g1";/*ifend*/
+		"12g1" -> "13g1"; /*exprStmt*/
+		"13g1" -> "14g1"; /*loopend*/
+		"14g1" -> "8g1"; /*loopend*/
+		"8g1" -> "15g1"; /*if*/
+		"15g1" -> "16g1"; /*then*/
+		"16g1" -> "17g1"; /*ifend*/
+		"15g1" -> "17g1";/*ifend*/
+	}
+	"9" -> "0g0" [ style=dashed ];
+	"18" -> "0g1" [ style=dashed ];
+	"17g0" -> "10" [ style=dashed ];
+	"17g1" -> "19" [ style=dashed ];
+}

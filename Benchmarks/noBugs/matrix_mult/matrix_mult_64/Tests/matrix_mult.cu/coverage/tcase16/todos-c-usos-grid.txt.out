@@ -1,0 +1,46 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 3-1, gridDim.x>, cobertura 100.00%
+2) <1-1, 4-1, idy>, cobertura 100.00%
+3) <1-1, 4-1, N>, cobertura 100.00%
+4) <1-1, 4-1, threadIdx.x>, cobertura 100.00%
+5) <1-1, 4-1, threadIdx.y>, cobertura 100.00%
+6) <1-1, 4-1, idx>, cobertura 100.00%
+7) <1-1, 5-1, N>, cobertura 100.00%
+8) <1-1, 6-1, d_a>, cobertura 26.56%
+9) <1-1, 6-1, threadIdx.y>, cobertura 26.56%
+10) <1-1, 6-1, threadIdx.x>, cobertura 26.56%
+11) <1-1, 7-1, threadIdx.y>, cobertura 77.83%
+12) <1-1, 7-1, threadIdx.x>, cobertura 77.83%
+13) <1-1, 9-1, N>, cobertura 100.00%
+14) <1-1, 10-1, d_b>, cobertura 95.80%
+15) <1-1, 10-1, threadIdx.y>, cobertura 95.80%
+16) <1-1, 10-1, threadIdx.x>, cobertura 95.80%
+17) <1-1, 11-1, threadIdx.y>, cobertura 100.00%
+18) <1-1, 11-1, threadIdx.x>, cobertura 100.00%
+19) <1-1, 18-1, threadIdx.y>, cobertura 7.06%
+20) <1-1, 18-1, threadIdx.x>, cobertura 7.06%
+21) <1-1, 19-1, temp_result>, cobertura 6.64%
+22) <1-1, 19-1, threadIdx.y>, cobertura 6.64%
+23) <1-1, 19-1, threadIdx.x>, cobertura 6.64%
+24) <1-1, 27-1, pos>, cobertura 7.06%
+25) <1-1, 27-1, temp_result>, cobertura 0.42%
+26) <2-1, 4-1, tile_idx>, cobertura 100.00%
+27) <2-1, 24-1, tile_idx>, cobertura 100.00%
+28) <4-1, 6-1, posa>, cobertura 26.56%
+29) <4-1, 10-1, posb>, cobertura 95.80%
+30) <6-1, 19-1, s_a>, cobertura 6.64%
+31) <7-1, 19-1, s_a>, cobertura 0.37%
+32) <10-1, 19-1, s_b>, cobertura 6.64%
+33) <11-1, 19-1, s_b>, cobertura 6.23%
+34) <16-1, 18-1, i>, cobertura 7.06%
+35) <16-1, 19-1, i>, cobertura 6.64%
+36) <16-1, 21-1, i>, cobertura 7.06%
+37) <19-1, 19-1, temp_result>, cobertura 6.64%
+38) <19-1, 27-1, temp_result>, cobertura 6.64%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 79484 / 155648
+Coverage for the todos-c-usos-grid criterion: 51.07%

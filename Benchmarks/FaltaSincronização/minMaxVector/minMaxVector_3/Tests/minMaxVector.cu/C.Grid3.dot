@@ -1,0 +1,106 @@
+digraph cfg{
+node [shape = doublecircle] 16;
+node [shape = circle];
+/* definition of threadIdx.x at 1 */
+/* definition of threadIdx.y at 1 */
+/* definition of threadIdx.z at 1 */
+/* definition of blockIdx.x at 1 */
+/* definition of blockIdx.y at 1 */
+/* definition of blockIdx.z at 1 */
+/* definition of blockDim.x at 1 */
+/* definition of blockDim.y at 1 */
+/* definition of blockDim.z at 1 */
+/* definition of gridDim.x at 1 */
+/* definition of gridDim.y at 1 */
+/* definition of gridDim.z at 1 */
+/* definition of sdata at 1 */
+/* definition of sdata at 3 */
+/* definition of s at 5 */
+/* definition of s at 5 */
+/* definition of sdata at 9 */
+/* definition of g_odata at 15 */
+/* definition of g_data at 1 */
+/* definition of g_odata at 1 */
+/* definition of N at 1 */
+/* definition of tid at 1 */
+/* definition of i at 1 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of blockIdx.x at 1 */
+/* cusage of blockDim.x at 1 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of tid at 1 */
+/* cusage of g_data at 3 */
+/* cusage of tid at 3 */
+/* cusage of i at 3 */
+/* cusage of blockDim.x at 5 */
+/* cusage of s at 13 */
+/* cusage of i at 7 */
+/* cusage of s at 7 */
+/* cusage of tid at 8 */
+/* cusage of tid at 8 */
+/* cusage of s at 8 */
+/* cusage of sdata at 9 */
+/* cusage of tid at 9 */
+/* cusage of tid at 9 */
+/* cusage of s at 9 */
+/* cusage of tid at 14 */
+/* cusage of sdata at 15 */
+/* cusage of blockIdx.x at 15 */
+/* pusage of i at 2 */
+/* pusage of i at 2 */
+/* pusage of N at 2 */
+/* pusage of N at 2 */
+/* pusage of s at 6 */
+/* pusage of s at 6 */
+/* pusage of tid at 7 */
+/* pusage of tid at 7 */
+/* pusage of s at 7 */
+/* pusage of s at 7 */
+/* pusage of N at 7 */
+/* pusage of N at 7 */
+/* pusage of sdata at 8 */
+/* pusage of sdata at 8 */
+/* pusage of sdata at 8 */
+/* pusage of sdata at 8 */
+/* susage of d_b at 16 */
+/* susage of d_c at 16 */
+/* m_recv.0 of d_b at 1 */
+/* m_recv.0 of d_c at 1 */
+/* m_recv.0 of limit at 1 */
+/* m_send.0 of d_b at 16 */
+/* m_send.0 of d_c at 16 */
+/* global of d_a at 0 */
+/* global of d_b at 0 */
+/* global of N at 0 */
+/* global of d_b at 0 */
+/* global of d_c at 0 */
+/* global of limit at 0 */
+/* global of d_a at 0 */
+/* global of d_b at 0 */
+/* global of N at 0 */
+/* global of d_b at 0 */
+/* global of d_c at 0 */
+/* global of limit at 0 */
+/* shared of sdata at 0 */
+/* shared of sdata at 0 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+2 -> 4;
+4 -> 5;
+5 -> 6;
+6 -> 7;
+7 -> 8;
+8 -> 9;
+9 -> 10;
+8 -> 10;
+10 -> 11;
+7 -> 11;
+11 -> 12;
+12 -> 13;
+13 -> 6;
+6 -> 14;
+14 -> 15;
+15 -> 16;
+14 -> 16;
+}

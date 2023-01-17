@@ -1,0 +1,46 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 2-0, size>, coberto
+2) <1-0, 3-0, N>, coberto
+3) <1-0, 4-0, N>, coberto
+4) <1-0, 9-0, h_a>, coberto
+5) <1-0, 9-0, N>, coberto
+6) <1-0, 14-0, h_b>, coberto
+7) <1-0, 17-0, N>, coberto
+8) <1-0, 18-0, sharedMemory>, coberto
+9) <1-0, 19-0, N>, coberto
+10) <1-0, 26-0, h_a>, coberto
+11) <1-0, 26-0, h_b>, coberto
+12) <5-0, 9-0, i>, coberto
+13) <5-0, 11-0, i>, coberto
+14) <7-0, 9-0, j>, coberto
+15) <7-0, 10-0, j>, coberto
+16) <12-0, 14-0, i>, coberto
+17) <12-0, 15-0, i>, coberto
+18) <16-0, 24-0, d_a>, coberto
+19) <17-0, 18-0, gridsize>, coberto
+20) <17-0, 18-0, blocksize>, coberto
+21) <17-0, 25-0, d_b>, coberto
+22) <19-0, 22-0, h_c>, coberto
+23) <19-0, 26-0, h_c>, coberto
+24) <20-0, 22-0, i>, coberto
+25) <20-0, 23-0, i>, coberto
+26) <1-1, 3-1, d_b>, cobertura 0.39%
+27) <1-1, 3-1, idx>, cobertura 0.39%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+28) <1-1, 9-1, d_a>
+29) <1-1, 9-1, tempValue>
+30) <1-1, 9-1, idx>
+31) <1-1, 9-1, N>
+32) <1-1, 13-1, idx>
+33) <1-1, 13-1, tempValue>
+34) <3-1, 9-1, array>
+35) <7-1, 9-1, k>
+36) <7-1, 10-1, k>
+37) <9-1, 9-1, tempValue>
+38) <9-1, 13-1, tempValue>
+
+Threads: 27 / 3353
+Coverage for the todos-c-usos criterion: 0.81%

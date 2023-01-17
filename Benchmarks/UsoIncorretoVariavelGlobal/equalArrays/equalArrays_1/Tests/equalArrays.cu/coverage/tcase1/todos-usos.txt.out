@@ -1,0 +1,44 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 2-0, size>, coberto
+2) <1-0, 3-0, size>, coberto
+3) <1-0, 7-0, h_a>, coberto
+4) <1-0, 11-0, h_b>, coberto
+5) <1-0, 17-0, h_equal>, coberto
+6) <1-0, 20-0, h_a>, coberto
+7) <1-0, 20-0, h_b>, coberto
+8) <5-0, 7-0, i>, coberto
+9) <5-0, 8-0, i>, coberto
+10) <9-0, 11-0, i>, coberto
+11) <9-0, 12-0, i>, coberto
+12) <12-0, 14-0, num_block>, coberto
+13) <12-0, 14-0, num_thread>, coberto
+14) <14-0, 16-0, gridsize>, coberto
+15) <14-0, 16-0, blocksize>, coberto
+16) <14-0, 18-0, d_a>, coberto
+17) <15-0, 20-0, d_equal>, coberto
+18) <17-0, 20-0, h_equal>, coberto
+19) <1-1, 2-1, pos>, cobertura 100.00%
+20) <1-1, 3-1, d_equal>, cobertura 100.00%
+21) <1-0, (6-0, 7-0), N>, coberto
+22) <1-0, (6-0, 9-0), N>, coberto
+23) <1-0, (10-0, 11-0), N>, coberto
+24) <1-0, (10-0, 13-0), N>, coberto
+25) <5-0, (6-0, 7-0), i>, coberto
+26) <5-0, (6-0, 9-0), i>, coberto
+27) <9-0, (10-0, 11-0), i>, coberto
+28) <9-0, (10-0, 13-0), i>, coberto
+29) <1-1, (2-1, 3-1), d_a>, cobertura 100.00%
+31) <1-1, (2-1, 3-1), d_b>, cobertura 100.00%
+33) <1-1, (2-1, 3-1), pos>, cobertura 100.00%
+35) <1-1, (2-1, 3-1), N>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+30) <1-1, (2-1, 4-1), d_a>
+32) <1-1, (2-1, 4-1), d_b>
+34) <1-1, (2-1, 4-1), pos>
+36) <1-1, (2-1, 4-1), N>
+
+Threads: 49178 / 81946
+Coverage for the todos-usos criterion: 60.01%

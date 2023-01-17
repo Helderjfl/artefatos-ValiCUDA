@@ -1,0 +1,24 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, (6-0, 7-0), N>, coberto
+2) <1-0, (6-0, 12-0), N>, coberto
+3) <1-0, (8-0, 9-0), N>, coberto
+4) <1-0, (8-0, 11-0), N>, coberto
+5) <1-0, (13-0, 14-0), N>, coberto
+6) <1-0, (13-0, 16-0), N>, coberto
+7) <1-0, (21-0, 22-0), N>, coberto
+8) <1-0, (21-0, 24-0), N>, coberto
+9) <5-0, (6-0, 7-0), i>, coberto
+10) <5-0, (6-0, 12-0), i>, coberto
+11) <7-0, (8-0, 9-0), j>, coberto
+12) <7-0, (8-0, 11-0), j>, coberto
+13) <12-0, (13-0, 14-0), i>, coberto
+14) <12-0, (13-0, 16-0), i>, coberto
+15) <20-0, (21-0, 22-0), i>, coberto
+16) <20-0, (21-0, 24-0), i>, coberto
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 16 / 16
+Coverage for the todos-p-usos-host criterion: 100.00%

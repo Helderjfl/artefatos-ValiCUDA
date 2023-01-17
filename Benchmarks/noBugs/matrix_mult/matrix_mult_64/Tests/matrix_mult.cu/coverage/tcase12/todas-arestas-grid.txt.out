@@ -1,0 +1,17 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 5-1 6-1, cobertura 20.02%
+2) 5-1 7-1, cobertura 85.55%
+3) 9-1 10-1, cobertura 68.95%
+4) 9-1 11-1, cobertura 100.00%
+5) 18-1 19-1, cobertura 3.81%
+6) 18-1 20-1, cobertura 4.13%
+7) 17-1 22-1, cobertura 4.13%
+8) 26-1 27-1, cobertura 4.13%
+9) 26-1 28-1, cobertura 95.87%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 15834 / 36864
+Coverage for the todas-arestas-grid criterion: 42.95%

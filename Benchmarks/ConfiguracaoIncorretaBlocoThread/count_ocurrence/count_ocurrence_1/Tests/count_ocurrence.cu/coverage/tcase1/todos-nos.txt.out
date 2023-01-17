@@ -1,0 +1,41 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 1-0, coberto
+2) 2-0, coberto
+3) 3-0, coberto
+4) 4-0, coberto
+5) 5-0, coberto
+6) 6-0, coberto
+7) 7-0, coberto
+8) 8-0, coberto
+9) 9-0, coberto
+10) 10-0, coberto
+11) 11-0, coberto
+12) 12-0, coberto
+13) 13-0, coberto
+14) 14-0, coberto
+15) 15-0, coberto
+16) 16-0, coberto
+17) 1-1, cobertura 100.00%
+18) 2-1, cobertura 100.00%
+19) 3-1, cobertura 25.00%
+20) 4-1, cobertura 25.00%
+21) 5-1, cobertura 25.00%
+22) 6-1, cobertura 100.00%
+23) 7-1, cobertura 100.00%
+24) 8-1, cobertura 100.00%
+25) 9-1, cobertura 100.00%
+26) 10-1, cobertura 100.00%
+27) 11-1, cobertura 50.00%
+28) 12-1, cobertura 100.00%
+29) 13-1, cobertura 100.00%
+30) 14-1, cobertura 100.00%
+31) 15-1, cobertura 100.00%
+32) 16-1, cobertura 12.50%
+33) 17-1, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 109584 / 139280
+Coverage for the todos-nos criterion: 78.68%

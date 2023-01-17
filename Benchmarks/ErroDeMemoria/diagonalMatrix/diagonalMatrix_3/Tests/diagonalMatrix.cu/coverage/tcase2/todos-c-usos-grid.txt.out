@@ -1,0 +1,41 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 2-1, mode>, cobertura 100.00%
+7) <1-1, 10-1, mode>, cobertura 100.00%
+14) <1-1, 18-1, mode>, cobertura 100.00%
+15) <1-1, 19-1, N>, cobertura 100.00%
+16) <1-1, 19-1, pos>, cobertura 100.00%
+17) <1-1, 21-1, idx>, cobertura 0.02%
+18) <1-1, 21-1, idy>, cobertura 0.02%
+19) <1-1, 22-1, d_a>, cobertura 0.02%
+20) <1-1, 22-1, pos>, cobertura 0.02%
+22) <1-1, 27-1, mode>, cobertura 100.00%
+32) <19-1, 22-1, posb>, cobertura 0.02%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+2) <1-1, 4-1, idx>
+3) <1-1, 4-1, idy>
+4) <1-1, 5-1, d_a>
+5) <1-1, 5-1, pos>
+6) <1-1, 6-1, pos>
+8) <1-1, 12-1, idx>
+9) <1-1, 12-1, idy>
+10) <1-1, 12-1, N>
+11) <1-1, 13-1, d_a>
+12) <1-1, 13-1, pos>
+13) <1-1, 14-1, pos>
+21) <1-1, 23-1, pos>
+23) <1-1, 28-1, idx>
+24) <1-1, 28-1, N>
+25) <1-1, 28-1, idy>
+26) <1-1, 30-1, idx>
+27) <1-1, 30-1, idy>
+28) <1-1, 30-1, N>
+29) <1-1, 31-1, d_a>
+30) <1-1, 31-1, pos>
+31) <1-1, 32-1, pos>
+33) <28-1, 31-1, posb>
+
+Threads: 24581 / 135168
+Coverage for the todos-c-usos-grid criterion: 18.19%

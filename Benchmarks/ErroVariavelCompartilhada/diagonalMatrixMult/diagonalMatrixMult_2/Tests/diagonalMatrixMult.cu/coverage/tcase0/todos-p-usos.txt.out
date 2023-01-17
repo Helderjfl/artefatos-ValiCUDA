@@ -1,0 +1,30 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, (13-0, 14-0), N>, coberto
+2) <1-0, (13-0, 20-0), N>, coberto
+3) <1-0, (16-0, 17-0), N>, coberto
+4) <1-0, (16-0, 19-0), N>, coberto
+5) <4-0, (5-0, 6-0), i>, coberto
+6) <4-0, (5-0, 8-0), i>, coberto
+7) <12-0, (13-0, 14-0), i>, coberto
+8) <12-0, (13-0, 20-0), i>, coberto
+9) <15-0, (16-0, 17-0), j>, coberto
+10) <15-0, (16-0, 19-0), j>, coberto
+11) <1-1, (14-1, 15-1), idx>, cobertura 0.02%
+12) <1-1, (14-1, 16-1), idx>, cobertura 99.98%
+13) <1-1, (14-1, 15-1), N>, cobertura 0.02%
+14) <1-1, (14-1, 16-1), N>, cobertura 99.98%
+15) <1-1, (14-1, 15-1), idy>, cobertura 0.02%
+16) <1-1, (14-1, 16-1), idy>, cobertura 99.98%
+17) <1-1, (17-1, 18-1), idx>, cobertura 0.02%
+18) <1-1, (17-1, 21-1), idx>, cobertura 99.98%
+19) <1-1, (17-1, 18-1), N>, cobertura 0.02%
+20) <1-1, (17-1, 21-1), N>, cobertura 99.98%
+21) <1-1, (17-1, 18-1), idy>, cobertura 0.02%
+22) <1-1, (17-1, 21-1), idy>, cobertura 99.98%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 24586 / 49162
+Coverage for the todos-p-usos criterion: 50.01%

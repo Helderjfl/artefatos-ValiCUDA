@@ -1,0 +1,163 @@
+digraph cfg{
+node [shape = doublecircle] 28;
+node [shape = circle];
+/* definition of threadIdx.x at 1 */
+/* definition of threadIdx.y at 1 */
+/* definition of threadIdx.z at 1 */
+/* definition of blockIdx.x at 1 */
+/* definition of blockIdx.y at 1 */
+/* definition of blockIdx.z at 1 */
+/* definition of blockDim.x at 1 */
+/* definition of blockDim.y at 1 */
+/* definition of blockDim.z at 1 */
+/* definition of gridDim.x at 1 */
+/* definition of gridDim.y at 1 */
+/* definition of gridDim.z at 1 */
+/* definition of tile_idx at 2 */
+/* definition of tile_idx at 2 */
+/* definition of posa at 4 */
+/* definition of posb at 4 */
+/* definition of s_a at 6 */
+/* definition of s_a at 7 */
+/* definition of s_b at 10 */
+/* definition of s_b at 11 */
+/* definition of i at 16 */
+/* definition of i at 16 */
+/* definition of temp_result at 19 */
+/* definition of d_c at 27 */
+/* definition of d_a at 1 */
+/* definition of d_b at 1 */
+/* definition of d_c at 1 */
+/* definition of N at 1 */
+/* definition of idx at 1 */
+/* definition of idy at 1 */
+/* definition of pos at 1 */
+/* definition of temp_result at 1 */
+/* cusage of threadIdx.x at 1 */
+/* cusage of blockDim.x at 1 */
+/* cusage of blockIdx.x at 1 */
+/* cusage of threadIdx.y at 1 */
+/* cusage of blockDim.y at 1 */
+/* cusage of blockIdx.y at 1 */
+/* cusage of idx at 1 */
+/* cusage of idy at 1 */
+/* cusage of N at 1 */
+/* cusage of gridDim.x at 3 */
+/* cusage of tile_idx at 24 */
+/* cusage of idy at 4 */
+/* cusage of N at 4 */
+/* cusage of tile_idx at 4 */
+/* cusage of threadIdx.x at 4 */
+/* cusage of tile_idx at 4 */
+/* cusage of threadIdx.y at 4 */
+/* cusage of N at 4 */
+/* cusage of idx at 4 */
+/* cusage of N at 5 */
+/* cusage of N at 5 */
+/* cusage of d_a at 6 */
+/* cusage of threadIdx.y at 6 */
+/* cusage of threadIdx.x at 6 */
+/* cusage of posa at 6 */
+/* cusage of threadIdx.y at 7 */
+/* cusage of threadIdx.x at 7 */
+/* cusage of N at 9 */
+/* cusage of N at 9 */
+/* cusage of d_b at 10 */
+/* cusage of threadIdx.y at 10 */
+/* cusage of threadIdx.x at 10 */
+/* cusage of posb at 10 */
+/* cusage of threadIdx.y at 11 */
+/* cusage of threadIdx.x at 11 */
+/* cusage of i at 21 */
+/* cusage of threadIdx.y at 18 */
+/* cusage of i at 18 */
+/* cusage of i at 18 */
+/* cusage of threadIdx.x at 18 */
+/* cusage of s_a at 19 */
+/* cusage of s_b at 19 */
+/* cusage of temp_result at 19 */
+/* cusage of threadIdx.y at 19 */
+/* cusage of i at 19 */
+/* cusage of i at 19 */
+/* cusage of threadIdx.y at 19 */
+/* cusage of pos at 27 */
+/* cusage of temp_result at 27 */
+/* pusage of tile_idx at 3 */
+/* pusage of tile_idx at 3 */
+/* pusage of posa at 5 */
+/* pusage of posa at 5 */
+/* pusage of posb at 9 */
+/* pusage of posb at 9 */
+/* pusage of idx at 14 */
+/* pusage of idx at 14 */
+/* pusage of N at 14 */
+/* pusage of N at 14 */
+/* pusage of idy at 14 */
+/* pusage of idy at 14 */
+/* pusage of N at 14 */
+/* pusage of N at 14 */
+/* pusage of i at 17 */
+/* pusage of i at 17 */
+/* pusage of s_a at 18 */
+/* pusage of s_a at 18 */
+/* pusage of s_b at 18 */
+/* pusage of s_b at 18 */
+/* pusage of idx at 26 */
+/* pusage of idx at 26 */
+/* pusage of N at 26 */
+/* pusage of N at 26 */
+/* pusage of idy at 26 */
+/* pusage of idy at 26 */
+/* pusage of N at 26 */
+/* pusage of N at 26 */
+/* susage of d_a at 28 */
+/* susage of d_b at 28 */
+/* susage of d_c at 28 */
+/* m_recv.0 of d_a at 1 */
+/* m_recv.0 of d_b at 1 */
+/* m_recv.0 of d_c at 1 */
+/* m_recv.0 of N at 1 */
+/* m_send.0 of d_a at 28 */
+/* m_send.0 of d_b at 28 */
+/* m_send.0 of d_c at 28 */
+/* global of d_a at 0 */
+/* global of d_b at 0 */
+/* global of d_c at 0 */
+/* global of N at 0 */
+/* shared of s_a at 0 */
+/* shared of s_b at 0 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+4 -> 5;
+5 -> 6;
+5 -> 7;
+6 -> 8;
+7 -> 8;
+8 -> 9;
+9 -> 10;
+9 -> 11;
+10 -> 12;
+11 -> 12;
+12 -> 13;
+13 -> 14;
+14 -> 15;
+15 -> 16;
+16 -> 17;
+17 -> 18;
+18 -> 19;
+19 -> 20;
+18 -> 20;
+20 -> 21;
+21 -> 17;
+17 -> 22;
+14 -> 22;
+22 -> 23;
+23 -> 24;
+24 -> 3;
+3 -> 25;
+25 -> 26;
+26 -> 27;
+27 -> 28;
+26 -> 28;
+}

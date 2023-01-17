@@ -1,0 +1,20 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 2-1, mode>, cobertura 100.00%
+3) <1-1, 10-1, mode>, cobertura 100.00%
+4) <1-1, 12-1, N>, cobertura 0.78%
+5) <1-1, 13-1, d_a>, cobertura 0.78%
+6) <1-1, 18-1, mode>, cobertura 100.00%
+9) <1-1, 27-1, mode>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+2) <1-1, 5-1, d_a>
+7) <1-1, 19-1, N>
+8) <1-1, 22-1, d_a>
+10) <1-1, 28-1, N>
+11) <1-1, 30-1, N>
+12) <1-1, 31-1, d_a>
+
+Threads: 16448 / 49152
+Coverage for the todos-global-c-usos-grid criterion: 33.46%

@@ -1,0 +1,126 @@
+digraph cfg{
+node [shape = doublecircle] 19;
+node [shape = circle];
+/* definition of h_in at 1 */
+/* definition of h_out at 1 */
+/* definition of i at 5 */
+/* definition of i at 5 */
+/* definition of i at 9 */
+/* definition of i at 9 */
+/* definition of g_data at 13 */
+/* definition of g_odata at 13 */
+/* definition of limit at 13 */
+/* definition of h_out at 16 */
+/* definition of h_out at 19 */
+/* definition of argc at 1 */
+/* definition of argv at 1 */
+/* definition of N at 1 */
+/* definition of size at 1 */
+/* definition of numBlock at 13 */
+/* definition of numThread at 13 */
+/* definition of gridsize at 13 */
+/* definition of blocksize at 13 */
+/* cusage of N at 1 */
+/* cusage of size at 1 */
+/* cusage of size at 1 */
+/* cusage of g_data at 2 */
+/* cusage of size at 2 */
+/* cusage of g_odata at 3 */
+/* cusage of size at 3 */
+/* cusage of d_c at 4 */
+/* cusage of size at 4 */
+/* cusage of i at 8 */
+/* cusage of h_in at 7 */
+/* cusage of i at 7 */
+/* cusage of i at 12 */
+/* cusage of h_in at 11 */
+/* cusage of i at 11 */
+/* cusage of g_odata at 13 */
+/* cusage of size at 13 */
+/* cusage of d_c at 13 */
+/* cusage of size at 13 */
+/* cusage of numBlock at 13 */
+/* cusage of numThread at 13 */
+/* cusage of numBlock at 13 */
+/* cusage of numThread at 13 */
+/* cusage of N at 13 */
+/* cusage of blocksize at 13 */
+/* cusage of gridsize at 14 */
+/* cusage of blocksize at 14 */
+/* cusage of blocksize at 15 */
+/* cusage of h_out at 16 */
+/* cusage of gridsize at 17 */
+/* cusage of blocksize at 17 */
+/* cusage of blocksize at 18 */
+/* cusage of h_out at 19 */
+/* pusage of i at 6 */
+/* pusage of i at 6 */
+/* pusage of N at 6 */
+/* pusage of N at 6 */
+/* pusage of i at 10 */
+/* pusage of i at 10 */
+/* pusage of N at 10 */
+/* pusage of N at 10 */
+/* syncNode at 2 */
+/* syncNode at 3 */
+/* syncNode at 4 */
+/* syncNode at 13 */
+/* syncNode at 14 */
+/* syncNode at 15 */
+/* syncNode at 16 */
+/* syncNode at 17 */
+/* syncNode at 18 */
+/* syncNode at 19 */
+/* susage of g_data at 14 */
+/* susage of g_odata at 14 */
+/* susage of N at 14 */
+/* susage of g_odata at 15 */
+/* susage of d_c at 15 */
+/* susage of limit at 15 */
+/* susage of g_data at 17 */
+/* susage of g_odata at 17 */
+/* susage of N at 17 */
+/* susage of g_odata at 18 */
+/* susage of d_c at 18 */
+/* susage of limit at 18 */
+/* m_send.1 of g_data at 14 */
+/* m_send.1 of g_odata at 14 */
+/* m_send.1 of N at 14 */
+/* m_send.2 of g_odata at 15 */
+/* m_send.2 of d_c at 15 */
+/* m_send.2 of limit at 15 */
+/* m_send.3 of g_data at 17 */
+/* m_send.3 of g_odata at 17 */
+/* m_send.3 of N at 17 */
+/* m_send.4 of g_odata at 18 */
+/* m_send.4 of d_c at 18 */
+/* m_send.4 of limit at 18 */
+/* m_recv.1 of g_data at 15 */
+/* m_recv.1 of g_odata at 15 */
+/* m_recv.2 of g_odata at 16 */
+/* m_recv.2 of d_c at 16 */
+/* m_recv.3 of g_data at 18 */
+/* m_recv.3 of g_odata at 18 */
+/* m_recv.4 of g_odata at 19 */
+/* m_recv.4 of d_c at 19 */
+1 -> 2;
+2 -> 3;
+3 -> 4;
+4 -> 5;
+5 -> 6;
+6 -> 7;
+7 -> 8;
+8 -> 6;
+6 -> 9;
+9 -> 10;
+10 -> 11;
+11 -> 12;
+12 -> 10;
+10 -> 13;
+13 -> 14;
+14 -> 15;
+15 -> 16;
+16 -> 17;
+17 -> 18;
+18 -> 19;
+}

@@ -1,0 +1,10 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-1, 4-1, d_idata>, cobertura 100.00%
+2) <1-2, 4-2, d_idata>, cobertura 99.90%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 2047 / 2048
+Coverage for the todos-global-c-usos-grid criterion: 99.95%

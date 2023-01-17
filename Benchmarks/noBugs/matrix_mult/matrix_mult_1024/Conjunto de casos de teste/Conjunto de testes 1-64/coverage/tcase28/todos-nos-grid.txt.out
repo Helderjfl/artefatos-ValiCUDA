@@ -1,0 +1,36 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) 1-1, cobertura 100.00%
+2) 2-1, cobertura 100.00%
+3) 3-1, cobertura 100.00%
+4) 4-1, cobertura 100.00%
+5) 5-1, cobertura 100.00%
+6) 6-1, cobertura 90.62%
+7) 7-1, cobertura 9.96%
+8) 8-1, cobertura 100.00%
+9) 9-1, cobertura 100.00%
+10) 10-1, cobertura 100.00%
+11) 11-1, cobertura 19.34%
+12) 12-1, cobertura 100.00%
+13) 13-1, cobertura 100.00%
+14) 14-1, cobertura 100.00%
+15) 15-1, cobertura 82.13%
+16) 16-1, cobertura 82.13%
+17) 17-1, cobertura 82.13%
+18) 18-1, cobertura 82.13%
+20) 20-1, cobertura 82.13%
+21) 21-1, cobertura 82.13%
+22) 22-1, cobertura 100.00%
+23) 23-1, cobertura 100.00%
+24) 24-1, cobertura 100.00%
+25) 25-1, cobertura 100.00%
+26) 26-1, cobertura 100.00%
+27) 27-1, cobertura 82.13%
+28) 28-1, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+19) 19-1
+
+Threads: 24523 / 28672
+Coverage for the todos-nos-grid criterion: 85.53%

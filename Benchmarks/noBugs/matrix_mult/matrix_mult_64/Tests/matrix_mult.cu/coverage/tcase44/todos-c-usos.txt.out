@@ -1,0 +1,71 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 2-0, size>, coberto
+2) <1-0, 3-0, size>, coberto
+3) <1-0, 4-0, size>, coberto
+4) <1-0, 6-0, N>, coberto
+5) <1-0, 7-0, h_a>, coberto
+6) <1-0, 10-0, N>, coberto
+7) <1-0, 11-0, h_b>, coberto
+8) <1-0, 14-0, size>, coberto
+9) <1-0, 22-0, N>, coberto
+10) <1-0, 27-0, h_a>, coberto
+11) <1-0, 27-0, h_b>, coberto
+12) <5-0, 7-0, i>, coberto
+13) <5-0, 8-0, i>, coberto
+14) <9-0, 11-0, i>, coberto
+15) <9-0, 12-0, i>, coberto
+16) <13-0, 25-0, d_a>, coberto
+17) <14-0, 15-0, gridsize>, coberto
+18) <14-0, 15-0, blocksize>, coberto
+19) <14-0, 26-0, d_b>, coberto
+20) <16-0, 22-0, h_c>, coberto
+21) <16-0, 27-0, h_c>, coberto
+22) <17-0, 22-0, i>, coberto
+23) <17-0, 24-0, i>, coberto
+24) <20-0, 22-0, j>, coberto
+25) <20-0, 23-0, j>, coberto
+26) <1-1, 3-1, gridDim.x>, cobertura 100.00%
+27) <1-1, 4-1, idy>, cobertura 100.00%
+28) <1-1, 4-1, N>, cobertura 100.00%
+29) <1-1, 4-1, threadIdx.x>, cobertura 100.00%
+30) <1-1, 4-1, threadIdx.y>, cobertura 100.00%
+31) <1-1, 4-1, idx>, cobertura 100.00%
+32) <1-1, 5-1, N>, cobertura 100.00%
+33) <1-1, 6-1, d_a>, cobertura 70.31%
+34) <1-1, 6-1, threadIdx.y>, cobertura 70.31%
+35) <1-1, 6-1, threadIdx.x>, cobertura 70.31%
+36) <1-1, 7-1, threadIdx.y>, cobertura 31.25%
+37) <1-1, 7-1, threadIdx.x>, cobertura 31.25%
+38) <1-1, 9-1, N>, cobertura 100.00%
+39) <1-1, 10-1, d_b>, cobertura 100.00%
+40) <1-1, 10-1, threadIdx.y>, cobertura 100.00%
+41) <1-1, 10-1, threadIdx.x>, cobertura 100.00%
+42) <1-1, 11-1, threadIdx.y>, cobertura 100.00%
+43) <1-1, 11-1, threadIdx.x>, cobertura 100.00%
+44) <1-1, 18-1, threadIdx.y>, cobertura 49.44%
+45) <1-1, 18-1, threadIdx.x>, cobertura 49.44%
+46) <1-1, 19-1, temp_result>, cobertura 48.34%
+47) <1-1, 19-1, threadIdx.y>, cobertura 48.34%
+48) <1-1, 19-1, threadIdx.x>, cobertura 48.34%
+49) <1-1, 27-1, pos>, cobertura 49.44%
+50) <1-1, 27-1, temp_result>, cobertura 1.10%
+51) <2-1, 4-1, tile_idx>, cobertura 100.00%
+52) <2-1, 24-1, tile_idx>, cobertura 100.00%
+53) <4-1, 6-1, posa>, cobertura 70.31%
+54) <4-1, 10-1, posb>, cobertura 100.00%
+55) <6-1, 19-1, s_a>, cobertura 48.34%
+56) <7-1, 19-1, s_a>, cobertura 0.15%
+57) <10-1, 19-1, s_b>, cobertura 48.34%
+58) <11-1, 19-1, s_b>, cobertura 6.59%
+59) <16-1, 18-1, i>, cobertura 49.44%
+60) <16-1, 19-1, i>, cobertura 48.34%
+61) <16-1, 21-1, i>, cobertura 49.44%
+62) <19-1, 19-1, temp_result>, cobertura 48.34%
+63) <19-1, 27-1, temp_result>, cobertura 48.34%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 105927 / 155673
+Coverage for the todos-c-usos criterion: 68.04%

@@ -1,0 +1,65 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <1-0, 2-0, size>, coberto
+2) <1-0, 3-0, size>, coberto
+3) <1-0, 5-0, N>, coberto
+4) <1-0, 6-0, h_a>, coberto
+5) <1-0, 17-0, N>, coberto
+6) <1-0, 21-0, h_a>, coberto
+7) <4-0, 6-0, i>, coberto
+8) <4-0, 7-0, i>, coberto
+9) <8-0, 20-0, d_a>, coberto
+10) <9-0, 10-0, gridsize>, coberto
+11) <9-0, 10-0, blocksize>, coberto
+12) <9-0, 21-0, d_b>, coberto
+13) <11-0, 17-0, h_b>, coberto
+14) <11-0, 21-0, h_b>, coberto
+15) <12-0, 17-0, i>, coberto
+16) <12-0, 19-0, i>, coberto
+17) <15-0, 17-0, j>, coberto
+18) <15-0, 18-0, j>, coberto
+19) <1-1, 2-1, mode>, cobertura 100.00%
+23) <1-1, 5-1, mode>, cobertura 100.00%
+24) <1-1, 6-1, pos>, cobertura 100.00%
+25) <1-1, 6-1, idx>, cobertura 100.00%
+26) <1-1, 6-1, idy>, cobertura 100.00%
+27) <1-1, 6-1, N>, cobertura 100.00%
+28) <1-1, 8-1, mode>, cobertura 100.00%
+33) <1-1, 11-1, mode>, cobertura 100.00%
+38) <1-1, 15-1, d_a>, cobertura 100.00%
+39) <1-1, 15-1, threadIdx.x>, cobertura 100.00%
+40) <1-1, 15-1, threadIdx.y>, cobertura 100.00%
+41) <1-1, 20-1, pos>, cobertura 1.56%
+42) <1-1, 20-1, threadIdx.x>, cobertura 1.56%
+43) <1-1, 20-1, threadIdx.y>, cobertura 1.56%
+44) <1-1, 20-1, number>, cobertura 1.56%
+48) <6-1, 15-1, posb>, cobertura 100.00%
+49) <6-1, 19-1, conda>, cobertura 100.00%
+50) <6-1, 19-1, condb>, cobertura 100.00%
+57) <15-1, 20-1, s_a>, cobertura 1.56%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+20) <1-1, 3-1, pos>
+21) <1-1, 3-1, idx>
+22) <1-1, 3-1, idy>
+29) <1-1, 9-1, N>
+30) <1-1, 9-1, pos>
+31) <1-1, 9-1, idx>
+32) <1-1, 9-1, idy>
+34) <1-1, 12-1, N>
+35) <1-1, 12-1, pos>
+36) <1-1, 12-1, idx>
+37) <1-1, 12-1, idy>
+45) <3-1, 15-1, posb>
+46) <3-1, 19-1, conda>
+47) <3-1, 19-1, condb>
+51) <9-1, 15-1, posb>
+52) <9-1, 19-1, conda>
+53) <9-1, 19-1, condb>
+54) <12-1, 15-1, posb>
+55) <12-1, 19-1, conda>
+56) <12-1, 19-1, condb>
+
+Threads: 57682 / 159762
+Coverage for the todos-c-usos criterion: 36.10%

@@ -1,0 +1,10 @@
+-- RESULTADO RESUMIDO --
+
+-- ELEMENTOS REQUERIDOS COBERTOS --
+1) <9-0, (11-0, 1-1), d_a>, cobertura 100.00%
+2) <10-0, (11-0, 1-1), d_b>, cobertura 100.00%
+
+-- ELEMENTOS REQUERIDOS NÃO COBERTOS --
+
+Threads: 2048 / 2048
+Coverage for the todos-s-usos criterion: 100.00%

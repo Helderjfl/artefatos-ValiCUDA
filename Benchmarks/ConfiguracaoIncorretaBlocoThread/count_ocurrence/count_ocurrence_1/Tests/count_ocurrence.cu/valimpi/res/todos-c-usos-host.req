@@ -1,0 +1,16 @@
+ELEMENTOS REQUERIDOS PELO CRITERIO TODOS-C-USOS HOST
+
+1) <1-0, 2-0, size>
+2) <1-0, 3-0, sizeOutput>
+3) <1-0, 6-0, h_in>
+4) <1-0, 8-0, sizeOutput>
+5) <1-0, 9-0, blocksize>
+6) <1-0, 9-0, gridsize>
+7) <4-0, 6-0, i>
+8) <4-0, 7-0, i>
+9) <10-0, 16-0, h_out>
+10) <10-0, 14-0, h_out>
+11) <12-0, 14-0, i>
+12) <12-0, 15-0, i>
+13) <14-0, 14-0, h_out>
+14) <14-0, 16-0, h_out>
